@@ -1,0 +1,161 @@
+/* @font-face {
+  font-family: 'NulshockRg';
+  src: url('../Font/NULSHOCK BD.OTF') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+} */
+ 
+.footer {
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  min-height: 328px;
+  margin-top: 100px;
+  font-weight: 700;
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  padding: 0 20px;
+}
+
+.footerBackground {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+}
+
+.footerContent {
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  max-width: 100%;
+  margin-bottom: -22px;
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+
+.societyLogo {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 72px;
+}
+
+.societyName {
+  display: flex;
+  flex-direction: row;
+  letter-spacing: 0.36px;
+  text-align: center;
+  margin-left: 82px;
+  text-transform: uppercase;
+  align-self: stretch;
+  margin-top: 6px;
+  font-size: 18px;
+  margin-bottom: 0;
+  font-family: 'NulshockRg';
+}
+
+.societyDescription {
+  letter-spacing: 0.28px;
+  text-align: center;
+  margin-top: 12px;
+  font-family: 'NulshockRg';
+  font-size: 10px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.joinButton {
+  color: #0d0d0d;
+  text-transform: uppercase;
+  letter-spacing: 0.34px;
+  background-color: #fe6e3a;
+  border-radius: 9px;
+  width: 164px;
+  max-width: 100%;
+  margin-top: 21px;
+  padding: 11px 27px 18px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: 'NulshockRg';
+  font-weight: inherit;
+}
+
+.diagonalStrip1,
+.diagonalStrip2 {
+  position: absolute;
+  width: 40px;
+  background-color: #ff7033;
+  z-index: 1;
+  left: -40px;
+  transform: rotate(-45deg);
+}
+
+.diagonalStrip1 {
+  height: 600px;
+  top: -30%;
+  margin-left: 50px;
+}
+
+.diagonalStrip2 {
+  height: 1000px;
+  top: -40%;
+  margin-left: 320px;
+}
+
+/* --- Media Queries --- */
+@media (max-width: 991px) {
+  .footer {
+    margin-top: 40px;
+    padding: 40px 20px 100px;
+    min-height: auto;
+  }
+
+  .footerContent {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+
+  .societyLogo {
+    width: 60px;
+  }
+
+  .societyName {
+    font-size: 14px;
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .societyDescription {
+    font-size: 9px;
+    padding: 0 5px;
+    line-height: 1.4;
+  }
+
+  .joinButton {
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-top: 16px;
+    width: 140px;
+  }
+
+  .diagonalStrip1 {
+    width: 35px;
+    height: 300px;
+    top: 34%;
+    margin-left: 20px;
+  }
+
+  .diagonalStrip2 {
+    width: 35px;
+    height: 450px;
+    top: 30%;
+    margin-left: 160px;
+  }
+}

@@ -1,0 +1,646 @@
+/* === FONTS === */
+/* @font-face {
+  font-family: 'NulshockRg';
+  src: url('../font/nulshock bd.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+/* === SECTION CONTAINER === */
+.trackRecordSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* === SECTION HEADER === */
+.sectionHeader {
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 18px;
+  margin-top: 270px;
+  font-family: Nulshock, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.headerStartLine,
+.headerEndLine {
+  background-color: #fe6e3a;
+  flex-shrink: 0;
+  height: 10px;
+  display: flex;
+}
+
+.headerStartLine {
+  width: 190px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.headerEndLine {
+  width: 600px;
+  max-width: 100%;
+  margin-top: 35px;
+  align-self: end;
+}
+
+.headerTitle {
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 500px;
+  margin: 0 0 0 20px;
+  font-family: 'Nulshock';
+  font-size: 50px;
+}
+
+/* === AWARDS SECTION === */
+.awardsContainer {
+  align-self: center;
+  width: 100%;
+  max-width: 1120px;
+  margin-top: 76px;
+  display: flex;
+  gap: 20px;
+}
+
+.awardColumn,
+.awardColumn1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  line-height: normal;
+}
+
+.awardColumn1 {
+  margin-left: 25%;
+  margin-top: 80px;
+  
+}
+
+/* === AWARD CARDS === */
+.awardCard {
+  color: #fff;
+  letter-spacing: 0.54px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  font-family: Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.awardImage {
+  aspect-ratio: 1.33;
+  object-fit: cover;
+  object-position: center;
+  width: 120%;
+  box-shadow: 0 4px 4px #00000040;
+  border-radius: 20px;
+}
+
+.awardTitle,
+.awardTitle1 {
+  width: 100%;
+  margin-top: 26px;
+  margin-left: 47px;
+  margin-right: 37px;
+  text-align: center;
+  font-family: 'Nulshock';
+  color: white;
+}
+
+
+.awardTitle {
+  font-size: 20px;
+  width:30vw;
+  text-align: center;
+  margin-left: 0.5vw;
+}
+
+.awardTitle1 {
+  font-size: 35px;
+  margin-bottom: 0;
+}
+
+/* === RESPONSIVE (TABLET & BELOW) === */
+@media (width <= 991px) {
+  .sectionHeader {
+    margin-top: 40px;
+    font-size: 40px;
+  }
+
+  .headerTitle {
+    margin-top: -20px;
+    font-size: 30px;
+    text-decoration: underline;
+  }
+
+  .headerStartLine,
+  .headerEndLine {
+    display: none;
+  }
+
+  .awardsContainer {
+    max-width: 100%;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .awardColumn,
+  .awardColumn1 {
+    width: 100%;
+  }
+
+  .awardColumn1 {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .awardCard {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .awardTitle {
+    max-width: 80%;
+    margin-left: 40px;
+  }
+
+  /* Hide timeline sections */
+  .journeySection1,
+  .journeySection2 {
+    display: none;
+  }
+
+  /* Align 1st runner-up image correctly */
+  .awardImage1 {
+    height: 200%;
+    width: 200%;
+    margin: 0 auto !important;
+    object-fit: contain;
+    margin-top: 50px;
+  }
+
+  /* Center and scale 1st runner-up title */
+  .awardTitle1 {
+    margin: 20px auto 0 auto !important;
+    font-size: 20px !important;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  /* Ensure awardCard is full width and centered */
+  .awardCard {
+    width: 200% !important;
+    max-width: 100% !important;
+    margin: 0 auto;
+  }
+
+  /* Make sure column stacks everything */
+  .awardColumn,
+  .awardColumn1 {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  /* Stack entire award section */
+  .awardsContainer {
+    flex-direction: column !important;
+    align-items: center;
+    gap: 40px;
+  }
+
+  /* Align awardJourneyRow like a column */
+  .awardJourneyRow {
+    margin-left: 0 !important;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .awardImage,
+.awardImage1 {
+  width: 80% !important;
+  max-width: 360px;
+  margin: 0 auto !important;
+  display: block;
+  object-fit: contain;
+  border-radius: 20px;
+  box-shadow: 0 4px 4px #00000040;
+}
+  
+}
+
+/* === RESPONSIVE (SMALL PHONES) === */
+@media (width <= 391px) {
+  .headerTitle {
+    font-size: 26px;
+  }
+
+  /* Hide timeline sections */
+  .journeySection1,
+  .journeySection2 {
+    display: none;
+  }
+
+  /* Align 1st runner-up image correctly */
+  .awardImage1 {
+    width: 100% !important;
+    margin: 0 auto !important;
+    object-fit: contain;
+    
+  }
+
+  /* Center and scale 1st runner-up title */
+  .awardTitle1 {
+    margin: 20px auto 0 auto !important;
+    font-size: 20px !important;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  /* Ensure awardCard is full width and centered */
+  .awardCard {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto;
+  }
+
+  /* Make sure column stacks everything */
+  .awardColumn,
+  .awardColumn1 {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  /* Stack entire award section */
+  .awardsContainer {
+    flex-direction: column !important;
+    align-items: center;
+    gap: 40px;
+  }
+
+  /* Align awardJourneyRow like a column */
+  .awardJourneyRow {
+    margin-left: 0 !important;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .awardImage,
+.awardImage1 {
+  width: 90% !important;
+  max-width: 360px;
+  margin: 0 auto !important;
+  display: block;
+  object-fit: contain;
+  border-radius: 20px;
+  box-shadow: 0 4px 4px #00000040;
+}
+  
+}
+
+.awardJourneyRow {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 3rem;
+  flex-wrap: wrap; /* Keep this for responsiveness */
+  margin-left: 240px;
+}
+
+.awardCard {
+  max-width: 400px;
+  text-align: center;
+}
+
+.awardTitle1{
+  width: 100;
+  margin-left: 125px;
+  width: 100%;
+}
+.awardImage1 {
+  width: 170%;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-left: 0px;
+  margin-top: 55px;
+}
+
+.journeySection1 {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  color: white;
+  width: 270px; /* Adjust as needed */
+  flex-shrink: 0;
+  margin: 0; /* Remove the left margin */
+  margin-left: -250px;
+  margin-right: 80px;
+  font-style: normal;
+  text-align: left;
+  
+}
+
+.journeySection2 {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  color: white;
+  width: 270px; /* Adjust as needed */
+  flex-shrink: 0;
+  margin: 0; /* Remove the left margin */
+  margin-left: 360px;
+  text-align:right;
+  font-style: normal;
+}
+
+.journeyTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-family: 'Nulshock';
+}
+
+.journeyTitle2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-family: 'Nulshock';
+  margin-left: 25px;
+  width:15vw;
+  text-align: left;
+}
+
+.journeyTimeline {
+  list-style: none;
+  line-height:3vw;
+  gap:1.6vw;
+  padding: 0;
+  margin: 0;
+}
+.journeyTimeline2 {
+  list-style: none;
+  line-height:3vw;
+  gap:1.6vw;
+  padding: 0;
+  margin: 0;
+  text-align:right;
+}
+
+.journeyItem {
+  margin-bottom: 1rem;
+  line-height: 1.99vw;
+  margin-top:2vw;
+}
+.journeyItem2 {
+  margin-bottom: 1rem;
+  line-height: 1.99vw;
+  margin-top:2vw;
+  text-align: right;
+}
+
+.journeyYear {
+  font-weight: bold;
+  color:rgba(254, 110, 58, 1);
+  display: block;
+  margin-bottom: 0rem;
+  font-family: 'NulshockRg';
+}
+
+.journeyYear2 {
+  font-weight: bold;
+  color:rgba(254, 110, 58, 1);
+  display: block;
+  margin-bottom: 0rem;
+  font-family: 'NulshockRg';
+  text-align: right;
+}
+
+p {
+  font-family: "Georgia", serif;
+  margin-top: -3px;
+}
+
+/* === RESPONSIVE (TABLETS / IPADS) === */
+@media (min-width: 768px) and (max-width: 991px) {
+  .sectionHeader {
+    font-size: 42px;
+    margin-top: 60px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .headerTitle {
+    font-size: 36px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .headerStartLine,
+  .headerEndLine {
+    display: none;
+  }
+
+  .awardsContainer {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 60px;
+    max-width: 90%;
+  }
+
+  .awardColumn,
+  .awardColumn1 {
+    width: 100%;
+    margin: 0 !important;
+    align-items: center;
+  }
+
+  .awardCard {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 24px;
+  }
+
+  .awardImage,
+  .awardImage1 {
+    width: 100% !important;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+    object-fit: contain;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px #00000040;
+  }
+
+  .awardTitle,
+  .awardTitle1 {
+    margin: 20px auto 0 auto !important;
+    font-size: 22px !important;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .awardJourneyRow {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-left: 0 !important;
+  }
+
+  .journeySection1,
+  .journeySection2 {
+    margin: 0 !important;
+    width: 90%;
+    max-width: 320px;
+  }
+
+  .journeyTitle {
+    font-size: 22px;
+  }
+
+  .journeyYear {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 0.5;
+  }
+}
+
+@media (max-width: 1300px) {
+  .sectionHeader {
+    font-size: 2.75rem;
+    margin-top: 4rem;
+  }
+
+  .headerTitle {
+    font-size: 2.2rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .headerStartLine {
+    width: 120px;
+  }
+
+  .headerEndLine {
+    width: 400px;
+  }
+
+  .awardsContainer {
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .awardColumn,
+  .awardColumn1 {
+    padding: 0 1rem;
+  }
+
+  .awardCard {
+    font-size: 1.5rem;
+    max-width: 450px;
+  }
+
+  .awardImage,
+  .awardImage1 {
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+  }
+
+  .awardTitle,
+  .awardTitle1 {
+    font-size: 1.25rem;
+  }
+
+  .awardJourneyRow {
+    margin-left: 0;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .journeySection1,
+  .journeySection2 {
+    margin: 0;
+  }
+}
+
+@media (max-width: 1000px) and (max-width: 1600px){
+  .sectionHeader {
+    font-size: 2.75rem;
+    margin-top: 4rem;
+  }
+
+  .headerTitle {
+    font-size: 2.2rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .headerStartLine {
+    width: 120px;
+  }
+
+  .headerEndLine {
+    width: 400px;
+  }
+
+  .awardsContainer {
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .awardColumn,
+  .awardColumn1 {
+    padding: 0 1rem;
+  }
+
+  .awardCard {
+    font-size: 1.5rem;
+    max-width: 450px;
+  }
+
+  .awardImage,
+  .awardImage1 {
+    max-width: 80%;
+    object-fit: contain;
+    border-radius: 20px;
+  }
+
+  .awardTitle,
+  .awardTitle1 {
+    font-size: 1.25rem;
+  }
+
+  .awardJourneyRow {
+    margin-left: 0;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .journeySection1,
+  .journeySection2 {
+    margin: 0;
+  }
+
+  p {
+    text-align: justify;
+  }
+}
+
+
+

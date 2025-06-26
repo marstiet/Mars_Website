@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+.infoSection {
+  width: 100%;
+  color: #fff; /* White text */
+  padding: 40px 20px;
+  }
+  /* @font-face {
+    font-family: 'NulshockRg';
+    src: url('../font/nulshock bd.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  } */
+  
+  .headerContainer {
+  text-align: center;
+  margin-bottom: 40px;
+  }
+  
+  .headerTitle {
+  font-family: 'Nulshock';
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff; /* White text for the header */
+  margin-top: -40px;
+  }
+  .columnsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: stretch; /* NEW: Ensures equal height */
+  }
+  
+  .column {
+    width: 40%;
+    display: flex;           /* NEW: Makes column a flex container */
+    flex-direction: column;  /* NEW: Allows child to stretch */
+  }
+  
+  .columnContent {
+    background-color: #1a1a1a;
+    border: 2px solid #fe6e3a;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1; /* NEW: Stretches to equal height */
+  }
+  
+  .columnTitle {
+  font-family: 'Nulshock'; /* Updated font */
+  font-size: 24px;
+  font-weight: bold;
+  color: #fe6e3a; /* Orange accent color for titles */
+  margin-bottom: 10px; /* Space below the title */
+  }
+  
+  .columnText {
+  color: #fff; /* White text */
+  font-family: 'Poppins', sans-serif; /* Updated font */
+  font-size: 18px; /* Slightly larger text for readability */
+  line-height: 1.8; /* Adjusted line height for better spacing */
+  text-align: justify; /* Justify the text for proper alignment */
+  }
+  .statsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Space between stats items */
+  margin-top: 50px; /* Added margin to bring stats down */
+  margin-left: 580px;
+  }
+  .statItem {
+  text-align: center; /* Center-align stats items */
+  }
+  
+  .statNumber {
+    font-family: 'Nulshock';  /* Updated font for numbers */
+  font-size: 40px; /* Larger font size for numbers */
+  font-weight: bold; /* Bold styling for numbers */
+  color: #fff; /* White color */
+  display: block; /* Ensures numbers are on their own line */
+  }
+  .statLabel {
+  font-family: 'Nulshock'; /* Updated font for labels */
+  font-size: 18px; /* Smaller size for labels */
+  color: #fff; /* White color */
+  display: block; /* Ensures labels are on their own line */
+  }
+
+/* Media Queries for Responsiveness */
+
+/* For tablets and smaller screens (max-width of 991px) */
+@media (max-width: 991px) {
+  
+  .columnsContainer {
+    flex-direction: column; /* Stack columns vertically */
+    align-items: normal;
+    gap: 30px; /* Reduced gap between boxes */
+    width: 950px; /* Adjust width to fit content */
+    padding-bottom: 20px;
+    padding-top :10 px 
+}
+.headerContainer{
+  margin-right: 30px;
+}
+}
+
+@media (max-width: 391px) {
+  
+  .columnsContainer {
+    flex-direction: column; /* Stack columns vertically */
+    align-items: normal;
+    gap: 30px; /* Reduced gap between boxes */
+    width: 840px; /* Adjust width to fit content */
+    padding-bottom: 20px;
+    padding-top :10 px 
+}
+.headerContainer{
+  margin-right: 30px;
+}
+}
+
+@media (max-width: 991px) {
+  .statsContainer {
+    flex-direction: column; /* Stack stats vertically */
+    align-items: center; /* Center-align vertically stacked items */
+    gap: 30px; /* Reduced gap between items */
+    margin-top: 30px; /* Adjust spacing above the section */
+    margin-left: -30px;
+  }
+
+  .statNumber {
+    font-size: 36px; /* Smaller font size for numbers on tablets */
+  }
+
+  .statLabel {
+    font-size: 16px; /* Adjusted label size for better readability */
+  }
+}
+
+@media (max-width: 890px) {
+  .columnsContainer {
+    flex-direction: column; /* Stack columns vertically */
+    align-items: center; /* Center align items */
+    gap: 30px;
+    width: 100%; /* Use full width */
+    padding: 10px 20px;
+  }
+
+  .headerTitle{
+    margin-right: 40px;
+  }
+
+  .headerContainer {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .column {
+    width: 90%; /* Make each column take more horizontal space */
+    margin-right: 80px;
+  }
+
+  .statsContainer {
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 50px;
+  }
+
+  .statNumber {
+    font-size: 36px;
+  }
+
+  .statLabel {
+    font-size: 16px;
+  }
+}
+
+
