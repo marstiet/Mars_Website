@@ -68,7 +68,7 @@ function IrcMissions() {
             <div className={styles.missionText}>
               <h2>Autonomous Expedition (AutEx)</h2>
               <p>
-                Objective: Navigate rugged terrain autonomously between markers.
+                <h2>Objective: </h2> Navigate rugged terrain autonomously between markers.
               </p>
               <h2>Tasks:</h2>
               <ul>
@@ -94,7 +94,7 @@ function IrcMissions() {
             <div className={styles.missionText}>
               <h2>Reconnaissance and Delivery Operation (RDO)</h2>
               <p>
-                Objective: Locate, retrieve, and deliver objects within 500
+                <h2>Objective: </h2>Locate, retrieve, and deliver objects within 500
                 meters of the base station.
               </p>
               <h2>Tasks:</h2>
@@ -134,7 +134,7 @@ function IrcMissions() {
             <div className={styles.missionText}>
               <h2>Instrument Deployment and Maintenance Operation (IDMO)</h2>
               <p>
-                Objective: Perform precise maintenance and deployment using the
+               <h2>Objective: </h2> Perform precise maintenance and deployment using the
                 rover's robotic arm.
               </p>
               <p>Tasks:</p>
