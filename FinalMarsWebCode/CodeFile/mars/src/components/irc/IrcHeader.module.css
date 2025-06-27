@@ -74,7 +74,7 @@
   margin: 0 auto;
 }
 
-.header {
+.header1 {
   position: relative;
   background-color: #0d0d0d;
 }
@@ -91,12 +91,16 @@
 
 
 @media (width : 991px) {
+  .container{
+    width:fit-content;
+    height:auto;
+  }
   .contentWrapper {
     text-align: start; /* Adjust for smaller screens */
   }
 
   .title {
-    font-size: 48px;
+    font-size: 20vw;
     line-height: normal; /* Adjust line height for smaller screens */
   }
 
@@ -119,6 +123,14 @@
       0% 65%
     );
     padding-bottom: 140px;
+   
+  }
+  .header1{
+    padding:0;
+    margin-left:-20vw;
+    margin-top: -95vw;
+    width:fit-content;
+    height:fit-content;
   }
 
   .contentWrapper {
@@ -142,9 +154,9 @@
   }
 
   .badge {
-    top: 20px;
-    right: 20px;
-    width: 70px;
+    top: 15px;
+    right: 0px;
+    width: 45px;
   }
 
   .orangeBar {
