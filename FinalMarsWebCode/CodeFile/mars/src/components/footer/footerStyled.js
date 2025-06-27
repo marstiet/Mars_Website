@@ -26,7 +26,7 @@ export const FooterDiv = styled.div`
   color: white;
 
   @media (max-width: 600px) {
-    height: 70px;
+    height: 80px;
   }
 `
 
@@ -38,7 +38,7 @@ export const FooterEnd = styled.div`
   margin-top: -150px;
 
   @media (max-width: 600px) {
-    margin-top: -80px;
+    margin-top: -60px;
   }
 `
 
