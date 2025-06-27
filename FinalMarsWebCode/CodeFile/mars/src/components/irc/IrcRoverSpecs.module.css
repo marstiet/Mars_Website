@@ -35,7 +35,7 @@
 }
 
 .headerStartLine {
-  background-color: #fff;
+  background-color: #f16837;
   flex-shrink: 0;
   align-self: start;
   width: 500px;
@@ -65,7 +65,7 @@
 }
 
 .headerEndLine {
-  background-color: #fff;
+  background-color: #f16837;
   flex-shrink: 0;
   align-self: end;
   width: 212px;
