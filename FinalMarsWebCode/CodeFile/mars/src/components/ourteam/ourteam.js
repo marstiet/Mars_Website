@@ -63,7 +63,7 @@ const teamMembers1 = [
   {
     name: "Jay Dhamija",
     position: "General Secretary",
-    image: "Jay.jpg",
+    image: "jay.jpg",
     description: "Jay Dhamija, our General Secretary, excels in computers and electronics, including Computer Vision, PCB design, and ROS 2. His expertise drives innovation and supports our focus on advanced technology."
     ,instagram:"https://www.instagram.com/jay_dhamija/?utm_source=ig_web_button_share_sheet",
     linkedin:"https://www.linkedin.com/in/jay-dhamija-739923318/"
@@ -73,7 +73,7 @@ const teamMembers1 = [
     {
       name: "Rhitam Dutta",
       position: "Joint Secretary",
-      image: "Rhitam.jpg",
+      image: "rhitam.jpg",
       description: "Rhitam Dutta, our Joint Secretary and Automation Lead, specializes in control systems, autonomous robotics, UI design, and system integration, while also managing external affairs and sponsorships."
       ,instagram:"https://www.instagram.com/rhitamdutta?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
       linkedin:"https://www.linkedin.com/in/rhitamdutta/"
@@ -104,7 +104,7 @@ const teamMembers5=[
   {
     name: "Shaurya Aggarwal",
     position: "Mechanical Lead",
-    image: "Shaurya.jpg",
+    image: "shaurya.jpg",
     description: "Shaurya Aggarwal, our Mechanical Lead specializes in CAD development, enhancing engineering projects and driving technological innovation."
     ,instagram:"https://www.instagram.com/shaurya.aggarwal?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
     linkedin:"https://www.linkedin.com/in/shaurya-aggarwal-984b81258/"
