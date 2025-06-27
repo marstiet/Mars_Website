@@ -75,7 +75,7 @@ function IrcTrackRecord() {
               className={styles.awardImage}
               alt="Emerging team of the year award"
             />
-            <h2 className={styles.awardTitle}>Finalist'24</h2>
+            <h2 className={styles.awardTitle1}>Finalist'24</h2>
           </article>
         </div>
         <div className={styles.awardColumn}>
@@ -85,7 +85,7 @@ function IrcTrackRecord() {
               className={styles.awardImage}
               alt="Finalist award"
             />
-            <h2 className={styles.awardTitle}>Emerging Team of the Year '23</h2>
+            <h2 className={styles.awardTitle1}>Emerging Team of the Year '23</h2>
           </article>
         </div>
       </div>
