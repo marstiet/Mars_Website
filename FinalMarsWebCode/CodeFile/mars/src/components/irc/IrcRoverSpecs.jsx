@@ -14,7 +14,7 @@ function IrcRoverSpecs() {
   <div className={styles.roverContent}>
     <div className={styles.roverImageColumn}>
       <img
-        src="/Alaknanda.jpg"
+        src="/alaknanda.jpg"
         className={styles.roverImage}
         alt="Alaknanda Rover"
       />
