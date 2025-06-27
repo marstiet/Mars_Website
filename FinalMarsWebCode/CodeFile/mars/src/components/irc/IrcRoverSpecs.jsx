@@ -22,7 +22,7 @@ function IrcRoverSpecs() {
     <div className={styles.roverSpecsColumn}>
       <div className={styles.roverSpecs}>
         <div className={styles.roverSpecsContent}>
-          <h3 className={styles.roverNameb}>ALAKNANDA</h3>
+          <h3 className={styles.roverNameb}>ALAKANANDA</h3>
           <ul className={styles.specsList}>
             <li>
               Custom PCB & BMS: Custom PCB and BMS optimized for industrial-grade arm and enhanced power efficiency.
