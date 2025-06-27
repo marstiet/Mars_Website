@@ -36,7 +36,7 @@ function IrcTrackRecord() {
   </div>
   <article className={styles.awardCard}>
     <img
-      src="/firstRUP.jpg"
+      src="/firstRUP.JPG"
       className={styles.awardImage1}
       alt="1st Runner Up award"
     />
