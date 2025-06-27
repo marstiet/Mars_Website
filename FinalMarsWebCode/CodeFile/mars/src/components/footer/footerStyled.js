@@ -6,7 +6,7 @@ export const FooterImgHolder = styled.div`
   height: 200px;
 
   @media (max-width: 600px) {
-    width: 150px;
+    width: 100px;
     height: 150px;
   }
 `
