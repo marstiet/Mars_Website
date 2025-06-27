@@ -123,7 +123,7 @@ const teamMembers5=[
     {
       name: "Pranjay Dhawan",
       position: "Electronics Lead",
-      image: "Pranjay.jpg",
+      image: "pranjay.jpg",
       description: "Pranjay Dhawan, our Electronics Lead, specializes in additive manufacturing, battery design, PCBs, all electronic circuits, and communication systems, driving innovation and reliability in every mission."
       ,instagram:"https://www.instagram.com/guliani.yachit_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
     linkedin:"https://www.linkedin.com/in/yachit-g-baa953201/"
