@@ -4,15 +4,22 @@
   font-weight: normal;
   font-style: normal;
 } */
+<link href="https://db.onlinewebfonts.com/c/be602cc6bc49dae3e4bf9f233c45a677?family=NulshockRg-Bold" rel="stylesheet">
+@font-face {
+  font-family: "NulshockRg-Bold";
+  src: url("https://db.onlinewebfonts.com/t/be602cc6bc49dae3e4bf9f233c45a677.woff2") format("woff2"),
+       url("https://db.onlinewebfonts.com/t/be602cc6bc49dae3e4bf9f233c45a677.woff") format("woff");
+}
 
 .missionsSection {
   display: flex;
   flex-direction: column;
   align-items: end;
-  width: 100%;
-  min-height: 1707px;
-  margin-top: 50px;
-  padding: 24px 0 47px 80px;
+  width: fit-content;
+  height:fit-content;
+  /* min-height: 1707px; */
+  margin-top: 0px;
+  /* padding: 24px 0 47px 80px; */
   position: relative;
   ;
 }
@@ -20,8 +27,9 @@
 .backgroundImage {
   position: absolute;
   inset: 0;
-  width: 100%;
-  height: 100%;
+  width: fit-content;
+  height:fit-content;
+  /* height: fit-content; */
   object-fit: cover;
   object-position: center;
 }
@@ -74,7 +82,7 @@
 .headerTitle {
   margin: 0;
   font-family: 'Nulshock';
-  font-size: 32px;
+  font-size: 3vw;
   font-weight: 700;
   text-transform: uppercase;
   color: #0d0d0d;
@@ -115,7 +123,7 @@
 
 .missionText {
   background-color: transparent;
-  padding: 1vw;
+  padding: 0vw;
   margin: 0;
   margin-left: 30px;
   font-family: 'Poppins', sans-serif;
@@ -123,7 +131,7 @@
 
 .missionText h2 {
   margin: 0 0 10px;
-  font-size: 20px;
+  font-size: 1.6vw;
   font-family: 'NulshockRg';
   color: black;
   text-align:left;
@@ -133,7 +141,7 @@
 .missionText ul,
 .missionText li {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0.6vw;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   text-align: left;
@@ -143,7 +151,7 @@
 }
 
 .missionText ul {
-  padding-left: 20px;
+  padding-left: 1vw;
   font-size: 1vw;
   line-height:0.5vw;
   color:black
@@ -154,7 +162,7 @@
   flex-direction: column;
   /* align-items: stretch; */
   height: fit-content;
-  width: auto;
+  width: fit-content;
   line-height: normal;
   padding:1vw;
 
@@ -191,27 +199,40 @@
 @media (max-width: 991px) {
   .missionsSection {
     max-width: 100%;
-    margin-top: 40px;
-    padding-left: 20px;
+    margin-top: 20px;
+    /* padding-left: 0.2vw; */
+  }
+  .backgroundImage{
+    height: 250vw;
+    width: 140%;
+    object-fit: cover;
   }
 
   .sectionHeader {
     white-space: initial;
-    font-size: 40px;
-    margin: 0 auto;
+    font-size: 4vw;
+    margin-left:0vw;
+
     justify-content: center;
-    align-items: center;
+    align-items:right;
+    top:0vw;
   }
 
   .headerTitleContainer {
     white-space: initial;
-    font-size: 40px;
+    font-size: 4vw;
+    text-align: right;
+    margin-top:1.2vw;
+    margin-left:40vw;
   }
+  
+
 
   .headerTitle {
-    font-size: 50px;
-    margin-right: 40px;
+    font-size: 5.5vw;
+    /* margin-right: 2vw; */
     text-decoration: underline;
+    text-align: right;
   }
 
   .headerLine,
@@ -223,41 +244,76 @@
   .missionCard2,
   .missionCard3,
   .missionCard4 {
-    margin-left: 210px;
-    margin-right: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
     top: 0 !important;
   }
 
   .missionContent {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+    flex-direction: row;
+    align-items: left;
+    gap: 0px;
+    padding: 0vw;
   }
 
   .missionTextColumn {
     margin-left: 0;
     width: 100%;
-    text-align: start;
+    text-align: left;
+    padding: 0;
   }
+  
+.missionText h2 {
+  margin: 0 0 10px;
+  font-size: 2.2vw;
+  font-family: 'NulshockRg';
+  color: black;
+  text-align:left;
+}
 
   .missionText {
     max-width: 100%;
-    padding-right: 20px;
+    padding-right: 0px;
+    padding-left:0px;
   }
+  
+.missionText p,
+.missionText ul,
+.missionText li {
+  margin-top: 0;
+  margin-bottom: 0.6vw;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  text-align: left;
+  font-size: 1.5vw;
+  color: black;
 
-  .missionImageColumn {
+}
+
+  .missionImageColumn img{
     margin-left: 0;
-    width: 100%;
+    width: 110%;
+     height:30vw;
+    /* height: fit-content; */
+    object-fit: cover;
   }
 
   .missionImage {
     margin-top: 0;
+    object-fit:cover;
+   
+
   }
 }
 
 @media (min-width: 992px) and (max-width: 1300px){
   .missionsSection {
     padding-left: 60px;
+  }
+  .backgroundImage{
+    height:fit-content;
+    width:fit-content;
+    object-fit: cover;
   }
 
   .missionCard1,
@@ -270,15 +326,28 @@
   }
 
   .missionText h3 {
-    font-size: 18px;
+    font-size: 2vw;
     color: black;
   }
 
-  .missionText p,
+  /* .missionText p,
   .missionText ul {
-    font-size: 14px;
+    font-size: 1vw;
     color: black;
-  }
+  } */
+  
+.missionText p,
+.missionText ul,
+.missionText li {
+  margin-top: 0;
+  margin-bottom: 0.6vw;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  text-align: left;
+  font-size: 1.5vw;
+  color: black;
+
+}
 
   .missionImageColumn {
     width: 28%;
