@@ -38,7 +38,7 @@ export const FooterEnd = styled.div`
   margin-top: -150px;
 
   @media (max-width: 600px) {
-    margin-top: -60px;
+    margin-top: -40px;
   }
 `
 
