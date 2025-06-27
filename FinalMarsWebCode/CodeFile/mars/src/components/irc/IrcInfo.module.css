@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nulshock:wght@400;700&display=swap');
 .infoSection {
   width: 100%;
   color: #fff; /* White text */
@@ -21,7 +21,7 @@
   font-size: 48px;
   font-weight: bold;
   color: #fff; /* White text for the header */
-  margin-top: -40px;
+  margin-top: 90vw;
   }
   .columnsContainer {
     display: flex;
@@ -106,14 +106,15 @@
   
   .columnsContainer {
     flex-direction: column; /* Stack columns vertically */
-    align-items: normal;
+    align-items: center;
     gap: 30px; /* Reduced gap between boxes */
-    width: 840px; /* Adjust width to fit content */
     padding-bottom: 20px;
-    padding-top :10 px 
+    padding-top :10 px ;
+    margin-left: 10px;
+    
 }
 .headerContainer{
-  margin-right: 30px;
+  margin-right: 0px;
 }
 }
 
@@ -145,7 +146,8 @@
   }
 
   .headerTitle{
-    margin-right: 40px;
+    margin-right: 5vw;
+    font-size: 10vw;
   }
 
   .headerContainer {
@@ -155,7 +157,10 @@
 
   .column {
     width: 90%; /* Make each column take more horizontal space */
-    margin-right: 80px;
+    margin-right: 10px;
+  }
+  .columnText{
+    font-size: 2.9vw;
   }
 
   .statsContainer {
@@ -164,11 +169,11 @@
     gap: 30px;
     margin-top: 30px;
     margin-left: 0;
-    margin-right: 50px;
+    margin-right: 0px;
   }
 
   .statNumber {
-    font-size: 36px;
+    font-size: 5vw;
   }
 
   .statLabel {
