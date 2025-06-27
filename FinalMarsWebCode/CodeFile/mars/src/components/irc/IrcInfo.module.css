@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nulshock:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 .infoSection {
   width: 100%;
   color: #fff; /* White text */
@@ -21,7 +21,7 @@
   font-size: 48px;
   font-weight: bold;
   color: #fff; /* White text for the header */
-  margin-top: 90vw;
+  margin-top: 0vw;
   }
   .columnsContainer {
     display: flex;
@@ -148,6 +148,7 @@
   .headerTitle{
     margin-right: 5vw;
     font-size: 10vw;
+    margin-top:90vw;
   }
 
   .headerContainer {
