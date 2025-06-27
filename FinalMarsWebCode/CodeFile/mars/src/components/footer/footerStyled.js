@@ -6,8 +6,8 @@ export const FooterImgHolder = styled.div`
   height: 200px;
 
   @media (max-width: 600px) {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
   }
 `
 
@@ -17,7 +17,7 @@ export const FooterImage = styled.img`
 
   @media (max-width: 600px) {
     width: 160px;
-    height: 170px;
+    height: 200px;
   }
 `
 
@@ -38,7 +38,7 @@ export const FooterEnd = styled.div`
   margin-top: -150px;
 
   @media (max-width: 600px) {
-    margin-top: -40px;
+    margin-top: -20px;
   }
 `
 
