@@ -90,7 +90,7 @@ const Card = ({ title, year, image }) => (
 
 export const Achievement = () => {
   const innovations = [
-    { title: "ALAKNANDA", year: "2025", image: "/roboDuelist.jpg" },
+    { title: "ALAKANANDA", year: "2025", image: "/roboDuelist.jpg" },
     { title: "BHAGIRATHI", year: "2024", image: "/bhagirathi1.jpg" },
     { title: "MANDAKINI", year: "2023", image: "/1-BrZcJz6s.jpg" },
   ];
