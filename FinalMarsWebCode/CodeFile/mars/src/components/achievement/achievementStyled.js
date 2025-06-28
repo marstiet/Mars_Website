@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const Containerr=styled.div`
 background-color:#0f0f0f;
-width:100%;`
+width:100%;
+overflow-x:hidden;`
 
 export const IrcHolder = styled.div`
   margin-bottom: 10%;
