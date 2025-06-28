@@ -743,15 +743,15 @@ gap:3rem;
   }
 
   @keyframes join {
-    from   { left:120%;}
+    from   { left:200%;}
     to {left: -35%;}
   }
   .crew{
     font-size: 3.9rem;
  
-  }  @keyframes creww {
-    from   { right:-5%;}
-    to {right:29%;}
+  }  @keyframes crew{
+    from   { right:-20%;}
+    to {right:9%;}
   }
 .container2{
   width: 100%;
@@ -792,7 +792,7 @@ gap:3rem;
 @media (max-width: 455px) {
  
   .container{
-    top:0rem;
+    top:3rem;
     justify-content: flex-start;
     width:fit-content;
   }
@@ -823,11 +823,11 @@ bottom:12%;
 
  }
  .section2{
-gap:13vw;
+gap:16vw;
  }
  
   .mission-vision {
-    top:8vw;
+    top:14vw;
       gap:7vw;
   }
   
@@ -922,8 +922,8 @@ gap:13vw;
  
   }  
   @keyframes creww {
-    from   { right:-25%;}
-    to {right:21%;}
+    from   { right:225%;}
+    to {right:31%;}
   }
 .container2{
   width: 100%;
@@ -936,7 +936,7 @@ gap:13vw;
 
  .team-container{
   position: relative;
-  top:-16vw;
+  top:-20vw;
  }
 .card-overlay{
   font-size: 12px;
