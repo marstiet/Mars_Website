@@ -8,7 +8,6 @@ export const NavWrapper = styled.div`
   display: flex;
   justify-content: center;
   z-index: 10;
-  
   @media (max-width: 768px) {
     background-color: rgba(17, 17, 17, 0.95);
     backdrop-filter: blur(10px);
@@ -30,7 +29,6 @@ export const NavHolder = styled.div`
   position: relative;
 
   @media (max-width: 768px) {
-    flex-direction: row;
     height: 60px;
     padding: 0.5rem 1rem;
     border-radius: 0;
@@ -43,6 +41,70 @@ export const NavHolder = styled.div`
   @media (max-width: 480px) {
     padding: 0.5rem;
     height: 50px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .desktop-only {
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+`;
+
+export const Hamburger = styled.button`
+  display: none;
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 100;
+
+    span {
+      width: 28px;
+      height: 3px;
+      background: #fff;
+      margin: 3px 0;
+      border-radius: 2px;
+      transition: all 0.3s;
+      display: block;
+    }
+  }
+`;
+
+export const MobileMenu = styled.div`
+  display: none;
+  @media (max-width: 768px) {
+    display: ${({ open }) => (open ? 'flex' : 'none')};
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100vw;
+    background: rgba(17, 17, 17, 0.99);
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+    z-index: 99;
+    align-items: center;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+    animation: fadeIn 0.3s;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px);}
+    to { opacity: 1; transform: translateY(0);}
   }
 `;
 
@@ -112,85 +174,16 @@ export const NameHoder = styled.div`
 
 export const Img = styled.img`
   width: 100%;
-  height: auto;
-  max-height: 80px;
-  object-fit: contain;
-
-  @media (max-width: 768px) {
-    max-height: 20px;
-  }
-
-  @media (max-width: 480px) {
-    max-height: 18px;
-  }
-
-  @media (max-width: 360px) {
-    max-height: 16px;
-  }
 `;
 
-export const NavHeading = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 800;
-  letter-spacing: 0.02em;
-  cursor: pointer;
-  transition: color 0.3s ease;
-  padding: 0.5rem;
-  white-space: nowrap;
-
-  &:hover {
-    color: #f16837;
-  }
-
-  @media (max-width: 768px) {
-    font-size: clamp(0.8rem, 3vw, 1rem);
-    padding: 0.25rem;
-    text-align: center;
-  }
-
+export const NavHeading = styled.span`
+  font-size: 1.2em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding: 0 0.8em;
+  color: inherit;
   @media (max-width: 480px) {
-    font-size: clamp(0.7rem, 3.5vw, 0.9rem);
-    letter-spacing: 0.01em;
-  }
-
-  @media (max-width: 360px) {
-    font-size: clamp(0.65rem, 4vw, 0.8rem);
-  }
-`;
-
-// Additional helper component for better mobile navigation
-export const NavContent = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-
-  @media (max-width: 768px) {
-    flex-direction: row;
-    gap: 0.8rem;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    flex: 1;
-  }
-
-  @media (max-width: 480px) {
-    gap: 0.5rem;
-    font-size: 0.8rem;
-  }
-`;
-
-// Mobile menu toggle (if you need a hamburger menu later)
-export const MobileMenuToggle = styled.button`
-  display: none;
-  background: none;
-  border: none;
-  color: white;
-  font-size: 1.5rem;
-  cursor: pointer;
-  padding: 0.5rem;
-
-  @media (max-width: 768px) {
-    display: ${props => props.showOnMobile ? 'block' : 'none'};
+    font-size: 1em;
+    padding: 0 0.5em;
   }
 `;
