@@ -320,7 +320,8 @@ export const CardGrid = styled.div`
   gap:3vw;
   display:flex;
   flex-direction:column;
-  align-items:center;}
+  padding:2vw;
+  }
 `;
 
 export const Innovations = styled.div`
@@ -333,9 +334,9 @@ export const Innovations = styled.div`
   @media (max-width:900px){
 
   display:flex;
-  flex-direction:column;
-  gap:3vw;
-  width:fit-content;}
+  flex-direction:row;
+  gap:1vw;
+}
 `;
 
 
@@ -407,6 +408,7 @@ export const Mag = styled.div`
   top: -11vw;
    @media(max-width:900px){
   margin-left:-35vw;
+  width:fit-content;
   }
 `;
 
