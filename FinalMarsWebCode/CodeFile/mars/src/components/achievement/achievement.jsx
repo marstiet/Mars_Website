@@ -244,7 +244,7 @@ export const Achievement = () => {
                 right: 0,
                 top: 0,
               }}
-              src="https://online.fliphtml5.com/kdalk/elof/"
+              src="https://online.fliphtml5.com/kdalk/xqui/"
               seamless="seamless"
               scrolling="no"
               frameBorder="0"
