@@ -253,7 +253,7 @@ export const Achievement = () => {
               title="Insights Magazine"
             ></iframe>
         </Mag>
-        <EmptyDiv></EmptyDiv>
+
       </Insights>
 
       {/* Publications Section */}
