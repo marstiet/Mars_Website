@@ -743,7 +743,7 @@ gap:3rem;
   }
 
   @keyframes join {
-    from   { left:200%;}
+    from   { left:280%;}
     to {left: -35%;}
   }
   .crew{
