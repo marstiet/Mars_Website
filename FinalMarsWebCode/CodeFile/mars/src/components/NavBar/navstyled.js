@@ -112,6 +112,6 @@ export const NavHeading = styled.div`
 
   @media screen and (max-width: 720px) {
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 12px;
   }
 `;
