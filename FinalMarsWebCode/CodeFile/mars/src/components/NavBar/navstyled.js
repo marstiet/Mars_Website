@@ -65,6 +65,7 @@ export const MarkNameHolder = styled.div`
   }
   @media screen and (max-width: 500px) {
     width: 120px;
+        border-top:12px solid #f16837;
     border-top-width: 36px;
     border-left-width: 10px;
     border-right-width: 10px;
