@@ -49,7 +49,7 @@ export const FooterHead = styled.h1`
   margin-top: 10px;
 
   @media (max-width: 600px) {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 5px;
   }
 `
@@ -61,7 +61,7 @@ export const FooterSubHead = styled.h2`
   font-family: "poppins";
 
   @media (max-width: 600px) {
-    font-size: 15px;
+    font-size: 12px;
     line-height: 24px;
   }
 `
