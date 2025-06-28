@@ -743,7 +743,7 @@ gap:3rem;
   }
 
   @keyframes join {
-    from   { left:250%;}
+    from   { left:200%;}
     to {left: -35%;}
   }
   .crew{
@@ -922,7 +922,7 @@ gap:16vw;
  
   }  
   @keyframes creww {
-    from   { right:150%;}
+    from   { right:120%;}
     to {right:21%;}
   }
 .container2{
