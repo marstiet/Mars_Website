@@ -58,17 +58,17 @@ export const MarkNameHolder = styled.div`
 
   @media screen and (max-width: 720px) {
     width: 200px;
-    border-top:12px solid #f16837;
+    border-top:16px solid #f16837;
     border-top-width: 60px;
     border-left-width: 25px;
     border-right-width: 25px;
   }
   @media screen and (max-width: 500px) {
     width: 120px;
-        border-top:12px solid #f16837;
-    border-top-width: 36px;
-    border-left-width: 10px;
-    border-right-width: 10px;
+        border-top:16px solid #f16837;
+    border-top-width: 60px;
+    border-left-width: 12px;
+    border-right-width: 12px;
   }
 `;
 
@@ -83,7 +83,7 @@ export const NameHoder = styled.div`
 
   @media screen and (max-width: 720px) {
     width: 90px;
-    height: 34px;
+    height: 30px;
     top: 10px;
   }
 `;
@@ -111,7 +111,9 @@ export const NavHeading = styled.div`
   }
 
   @media screen and (max-width: 720px) {
-    margin-top: 10px;
-    font-size: 12px;
+     margin-top: 18px;
+     margin-right:10px;
+     margin-left:10px;
+    font-size: 8px;
   }
 `;
