@@ -201,7 +201,7 @@ export const Ourteam = () => {
   
   
     try {
-      await fetch("https://script.google.com/macros/s/AKfycbz_3Sv1HS7GgpWoVIvJt_FpXaW8nmNkJ3cFMAp-4xE1iJDHXMIMoZH7xAVSjF3HG2Y6Aw/exec", {
+      await fetch("https://script.google.com/macros/s/AKfycbyc65HMFC31wpaEQd0l0N_Z0IdAsXXHfdfPSP4RNlTt2wEpxl9dImQG83R79vGpLdBxZg/exec", {
         method: "POST",
         mode: "no-cors", // disables CORS blocking
         headers: {
