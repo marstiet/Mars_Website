@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import NulshockBold from '../../assest/font/nulshock bd.ttf';
+import NulshockBold from '../../assets/font/nulshock bd.ttf';
 
 // Image Holders
 export const ImgHolder = styled.div`
