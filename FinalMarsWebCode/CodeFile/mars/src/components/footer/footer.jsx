@@ -1,7 +1,7 @@
 import React from 'react'
 import { FooterImgHolder , FooterDiv , FooterEnd ,FooterImage , FooterBtn , MarsImgHolder , ImgFooter, FooterHead, FooterSubHead} from './footerStyled'
-import FooterLines from '../../assest/lines.png';
-import MarsFooter from '../../assest/marsfooter.png'
+import FooterLines from '../../assets/lines.png';
+import MarsFooter from '../../assets/marsfooter.png'
 
 
 export const Footer = () =>{
