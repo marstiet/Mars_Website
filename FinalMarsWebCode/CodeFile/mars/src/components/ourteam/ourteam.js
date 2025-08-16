@@ -203,7 +203,7 @@ export const Ourteam = () => {
     
   
     try {
-      await fetch("https://script.google.com/a/macros/thapar.edu/s/AKfycbyMnTBcpTy8B6JGQY-4Mwd9Z2gY8IRs4dUg2Zd85AxiKSVM1YcAlw-wjXsT303xg2BmqQ/exec", {
+      await fetch("https://script.google.com/macros/s/AKfycbzfCWkdLzWtiPpjW7rmygqnhrSZ01OzOs76pLZesS_DinCbcHE6XmdkctMb0c8IF4p5dw/exec", {
         method: "POST",
         mode: "no-cors",
         headers: {
