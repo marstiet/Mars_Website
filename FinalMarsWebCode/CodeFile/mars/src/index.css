@@ -1,8 +1,8 @@
 @import url('https://db.onlinewebfonts.com/c/be602cc6bc49dae3e4bf9f233c45a677?family=NulshockRg-Bold');
 @font-face {
     font-family: 'Nulshock';
-    src: url('./src/assets/font/Nulshock-Bold.woff2') format('woff2'),
-         url('./src/assets/font/Nulshock-Bold.woff') format('woff');
+    src: url('../src/assets/font/Nulshock-Bold.woff2') format('woff2'),
+         url('../src/assets/font/Nulshock-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
