@@ -164,7 +164,7 @@ height: 100%;
 border-radius: 10px;
 `*/
 import styled from "styled-components";
-import NulshockBold from '../../assest/font/nulshock bd.ttf'
+import NulshockBold from '../../assets/font/nulshock bd.ttf'
 
 
 export const DepartmentHrMain = styled.hr`
