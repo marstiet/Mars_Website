@@ -3,7 +3,6 @@ import { FooterImgHolder , FooterDiv , FooterEnd ,FooterImage , FooterBtn , Mars
 import FooterLines from '../../assets/lines.png';
 import MarsFooter from '../../assets/marsfooter.png'
 
-
 export const Footer = () =>{
     return (
         <FooterDiv>
