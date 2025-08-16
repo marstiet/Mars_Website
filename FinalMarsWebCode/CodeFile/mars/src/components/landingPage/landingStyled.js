@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import NulshockBold from '../../assets/font/Nulshock-Bold.woff';
 
-// Image Holders
+// Image Holder
 export const ImgHolder = styled.div`
   width: 100%;
   height: 80%;
