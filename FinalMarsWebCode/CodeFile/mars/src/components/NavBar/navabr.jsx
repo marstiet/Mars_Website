@@ -1,7 +1,7 @@
 import React ,{useState}from 'react';
 import { NavWrapper,NavHolder , MarkNameHolder, NameHoder , NavHeading, Img } from './navstyled';
 import { Link } from 'react-router-dom';
-import MarkImg from '../../assest/MarkImg.png'
+import MarkImg from '../../assets/MarkImg.png'
 
 export const Navbar = () => {
     const [colorChange, setColorchange] = useState(false);
