@@ -1,13 +1,13 @@
-import Computer from "../../assest/comp.jpg";
-import Mechanical from "../../assest/mech.jpg";
-import Electronics from "../../assest/electronics.jpg";
-import ABEX from "../../assest/abex.jpg";
-import Oa from "../../assest/oa.jpg";
-import ComputerImg from "../../assest/control.png";
-import MechanicalImg from "../../assest/mechanicalchange.jpg";
-import ElectronicsImg from "../../assest/electronicsdepart.jpg";
-import AbexImg from "../../assest/abexchange.jpg";
-import OAImg from "../../assest/organizationaffairs.jpg";
+import Computer from "../../assets/comp.jpg";
+import Mechanical from "../../assets/mech.jpg";
+import Electronics from "../../assets/electronics.jpg";
+import ABEX from "../../assets/abex.jpg";
+import Oa from "../../assets/oa.jpg";
+import ComputerImg from "../../assets/control.png";
+import MechanicalImg from "../../assets/mechanicalchange.jpg";
+import ElectronicsImg from "../../assets/electronicsdepart.jpg";
+import AbexImg from "../../assets/abexchange.jpg";
+import OAImg from "../../assets/organizationaffairs.jpg";
 export const DepartmentData = [
     {
         id: 1,
