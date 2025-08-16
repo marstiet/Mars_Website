@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import "./ourteam.css";
 
+
 const teamMembers1 = [
   {
     name: "Dr. Ashish Singla",
