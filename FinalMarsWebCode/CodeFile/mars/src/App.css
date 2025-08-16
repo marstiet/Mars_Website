@@ -5,8 +5,8 @@
 }
 @font-face {
     font-family: 'Nulshock';
-    src: url('./src/assest/fonts/Nulshock.woff2') format('woff2'),
-         url('./src/assest/fonts/Nulshock.woff') format('woff');
+    src: url('./src/assets/fonts/Nulshock.woff2') format('woff2'),
+         url('./src/assets/fonts/Nulshock.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
