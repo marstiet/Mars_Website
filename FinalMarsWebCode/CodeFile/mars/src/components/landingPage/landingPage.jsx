@@ -1,18 +1,18 @@
 import React from "react";
-import Landing2 from "../../assest/landing2.png";
-import LandingSide from "../../assest/MarsLogo.png";
-import Anys from "../../assest/Anays.png";
-import RockPecker from "../../assest/RockPecker.png";
-import Factory from "../../assest/Factory.png";
-import Equation from "../../assest/equation.png";
-import System from "../../assest/systems.png";
-import FooterImg from "../../assest/formback-BjIy3UFH.png";
+import Landing2 from "../../assets/landing2.png";
+import LandingSide from "../../assets/MarsLogo.png";
+import Anys from "../../assets/Anays.png";
+import RockPecker from "../../assets/RockPecker.png";
+import Factory from "../../assets/Factory.png";
+import Equation from "../../assets/equation.png";
+import System from "../../assets/systems.png";
+import FooterImg from "../../assets/formback-BjIy3UFH.png";
 import { SlEnvolopeLetter } from "react-icons/sl";
 import { FaLocationDot } from "react-icons/fa6";
 import { DemoData, DepartmentData } from './demoData';
-import WebVideo from '../../assest/video/website_video.mp4';
-import Linkedin from "../../assest/marslinkedin.png";
-import Insta from "../../assest/marsinsta.png";
+import WebVideo from '../../assets/video/website_video.mp4';
+import Linkedin from "../../assets/marslinkedin.png";
+import Insta from "../../assets/marsinsta.png";
 
 import {
   ImgHolder,
@@ -93,7 +93,7 @@ import {
   Address,
   IconPic,
 } from "./landingStyled";
-import LandingSide2 from "../../assest/RoverEditImg.png";
+import LandingSide2 from "../../assets/RoverEditImg.png";
 import { HiOutlineUsers } from "react-icons/hi";
 import { SlCalender } from "react-icons/sl";
 import { PiLightbulbFilamentBold } from "react-icons/pi";
