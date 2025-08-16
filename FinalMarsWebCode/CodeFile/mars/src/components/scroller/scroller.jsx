@@ -26,7 +26,7 @@ import {
 import IrcImg from "./scrollerImg/slide1irc-Dzkh8fU9 (1).png";
 import Spros from "./scrollerImg/slide2irc-BHMHClOx.png";
 import Rover from "./scrollerImg/slide3irc-8jY2cJsx.png";
-import TeamImg from "../../assest/team/IRC 25 Day 5 [DoPy] (35) .jpg";
+import TeamImg from "../../assets/team/IRC 25 Day 5 [DoPy] (35) .jpg";
 
 const Scroller = () => {
   const settings = {
