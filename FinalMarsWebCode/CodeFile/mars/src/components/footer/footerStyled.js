@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import NulshockBold from '../../assets/font/nulshock bd.ttf';
+import NulshockBold from '../../assets/font/Nulshock-Bold.woff';
 
 export const FooterImgHolder = styled.div`
   width: 200px;
