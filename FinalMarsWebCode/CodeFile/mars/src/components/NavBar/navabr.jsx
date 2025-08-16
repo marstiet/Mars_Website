@@ -3,6 +3,7 @@ import { NavWrapper,NavHolder , MarkNameHolder, NameHoder , NavHeading, Img } fr
 import { Link } from 'react-router-dom';
 import MarkImg from '../../assets/MarkImg.png'
 
+
 export const Navbar = () => {
     const [colorChange, setColorchange] = useState(false);
     const changeNavbarColor = () => {
