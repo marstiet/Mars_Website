@@ -72,10 +72,10 @@ import {
   EventText,
   EmptyDiv
 } from './achievementStyled';
-import RoverImg from "../../assest/IRC 25 Day 4 [DoPy]-11 (1).jpg";
-import TeamRunner from "../../assest/team/IRC 25 Day 5 [DoPy] (35) (1).jpg";
-import TeamEmerging from "../../assest/team/EmergingT.png";
-import FirstPlace from "../../assest/team/firsterc.jpg";
+import RoverImg from "../../assets/IRC 25 Day 4 [DoPy]-11 (1).jpg";
+import TeamRunner from "../../assets/team/IRC 25 Day 5 [DoPy] (35) (1).jpg";
+import TeamEmerging from "../../assets/team/EmergingT.png";
+import FirstPlace from "../../assets/team/firsterc.jpg";
 
 // Card Component
 const Card = ({ title, year, image }) => (
