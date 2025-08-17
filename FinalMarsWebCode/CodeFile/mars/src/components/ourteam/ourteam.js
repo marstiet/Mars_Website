@@ -203,7 +203,7 @@ export const Ourteam = () => {
     
   
     try {
-      await fetch("https://script.google.com/macros/s/AKfycbzfCWkdLzWtiPpjW7rmygqnhrSZ01OzOs76pLZesS_DinCbcHE6XmdkctMb0c8IF4p5dw/exec", {
+      await fetch("https://script.google.com/macros/s/AKfycbxjgQJZJGxg0ypNECQDBiaDjhl-1V2432b4W7mwNOQOPJZhe5vCVefVaBKc8h3tM45qZA/exec", {
         method: "POST",
         mode: "no-cors",
         headers: {
