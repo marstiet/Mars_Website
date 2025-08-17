@@ -11,6 +11,21 @@ export const ImgHolder = styled.div`
     min-height: 300px;
   }
 `;
+export const Rec = styled.div`
+width:fit-content;
+color:black;
+background:#fe6e3a;
+position:sticky;
+top:50%;
+left:100%;
+display:flex;
+flex-direction:right;
+margin-right:-4vw;
+padding:1vw;
+transform:rotate(90deg);
+index:1000;
+
+`
 
 export const MainImg = styled.img`
   width: 100%;
