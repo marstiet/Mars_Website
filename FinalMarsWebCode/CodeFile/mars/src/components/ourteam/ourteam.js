@@ -373,10 +373,18 @@ Mentorship for innovation and growth   </li>    </ul>     </p>
           <select id="department" name="department" value={formData.department} onChange={handleChange}  required>
             <option value="" disabled>Select the department</option>
             <option value="CSE">Computer Science & Engineering</option>
+            <option value="COE">Computer Engineering</option>
+            <option value="COBS">Computer Science & Business System</option>
+            <option value="AI/ML">Artificial Intelligence & Machine Learning Engineering</option>
+            <option value="AIDS">Artificial Intelligence & Data Science Engineering</option>
+            <option value="RAI">Robotics & Artificial Intelligence</option>
+            <option value="ENC">Electronics & Computer Engineering</option>
+            <option value="EEC">Electrical & Computer Engineering</option>
             <option value="ECE">Electronics & Communication Engineering</option>
+            <option value="EIC">Electronics & Instrumentation Engineering</option>
+            <option value="EE">Electrical Engineering</option>
             <option value="ME">Mechanical Engineering</option>
             <option value="CE">Civil Engineering</option>
-            <option value="EE">Electrical Engineering</option>
           </select>
 
           <label htmlFor="graduation">Year of Graduation</label>
