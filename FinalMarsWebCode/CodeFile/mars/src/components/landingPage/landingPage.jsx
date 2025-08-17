@@ -85,6 +85,7 @@ import {
   // FooterDiv,
   // FooterEnd,
   // FooterBtn,
+  Rec,
   RoverImg,
   LinkHolder,
   LinkImg,
@@ -112,6 +113,7 @@ export const LandingPage = () => {
   }
   return (
     <div>
+      <Rec>Orientation</Rec>
       <ImgHolder>
         <MainVideo autoPlay muted loop playsInline>
           <source src={WebVideo} type="video/mp4" />
