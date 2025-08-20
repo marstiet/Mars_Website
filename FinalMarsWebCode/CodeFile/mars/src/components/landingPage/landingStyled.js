@@ -27,9 +27,16 @@ z-index:1000;
 &:hover{
     transition-duration: 0.2s;
     scale: 1.1;}
+    
     @media(max-width:455px){
     margin-right:-14.5;
+    transform:rotate(0deg);
     }
+        @media(max-width:768px){
+    margin-right:-14.5;
+        transform:rotate(0deg);
+    }
+    
 
 `
 export const Reclink=styled.a`
