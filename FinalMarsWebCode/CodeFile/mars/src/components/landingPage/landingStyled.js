@@ -30,11 +30,11 @@ z-index:1000;
     
     @media(max-width:455px){
     margin-right:-14.5;
-    transform:rotate(0deg);
+
     }
         @media(max-width:768px){
     margin-right:-14.5;
-        transform:rotate(0deg);
+       
     }
     
 
