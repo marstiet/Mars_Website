@@ -24,6 +24,14 @@ margin-right:-4vw;
 padding:1vw;
 transform:rotate(90deg);
 index:1000;
+&:hover{
+    transition-duration: 0.2s;
+    scale: 1.1;
+
+`
+export const Reclink=styled.a`
+text-decoration:none;
+color:black;
 
 `
 
