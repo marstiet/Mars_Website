@@ -25,7 +25,7 @@ const teamMembers1 = [
   {
     name: "Manish Jain",
     position: "Overall Student Coordinator",
-    image: "man.jpg",
+    image: "man.JPG",
     description: "Manish Jain, our Student Coordinator, is proficient in CAD, FEA and Control Systems. His skills facilitate effective project coordination. Currently interned at Addverb."
     ,instagram:"https://www.instagram.com/manish.jain07?igsh=djBlY2I5bWt4Nm43",
     linkedin:"https://www.linkedin.com/in/manishjain0710?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
