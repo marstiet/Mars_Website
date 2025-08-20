@@ -29,11 +29,11 @@ z-index:1000;
     scale: 1.1;}
     
     @media(max-width:455px){
-    margin-right:-14.5;
+    margin-right:-20.5;
 
     }
         @media(max-width:768px){
-    margin-right:-14.5;
+    margin-right:-20.5;
        
     }
     
