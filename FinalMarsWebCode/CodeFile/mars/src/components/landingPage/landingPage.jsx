@@ -94,6 +94,7 @@ import {
   DemoDataDesc,
   Address,
   IconPic,
+  
 } from "./landingStyled";
 import LandingSide2 from "../../assets/RoverEditImg.png";
 import { HiOutlineUsers } from "react-icons/hi";
