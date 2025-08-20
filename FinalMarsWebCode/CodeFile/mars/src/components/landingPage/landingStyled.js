@@ -20,7 +20,7 @@ top:50%;
 left:100%;
 display:flex;
 flex-direction:right;
-margin-right:-3.5vw;
+margin-right:-5.5vw;
 padding:1vw;
 transform:rotate(90deg);
 index:1000;
