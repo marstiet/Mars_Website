@@ -23,141 +23,129 @@ const teamMembers1 = [
   const teamMembers2=[
   
   {
-    name: "Anant Tomar",
+    name: "Manish Jain",
     position: "Overall Student Coordinator",
-    image: "Anant.jpg",
-    description: "Anant Tomar, our Student Coordinator, is proficient in CAD, FEA and Control Systems. His skills facilitate effective project coordination. Currently interned at Addverb."
-    ,instagram:"https://www.instagram.com/ananttomar_14?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-    linkedin:"https://www.linkedin.com/in/ananttomar14/"
+    image: "man.jpg",
+    description: "Manish Jain, our Student Coordinator, is proficient in CAD, FEA and Control Systems. His skills facilitate effective project coordination. Currently interned at Addverb."
+    ,instagram:"https://www.instagram.com/manish.jain07?igsh=djBlY2I5bWt4Nm43",
+    linkedin:"https://www.linkedin.com/in/manishjain0710?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
  },];
  const teamMembers22=[
   {
-    name: "Shyam Sundar",
+    name: "Jay Dhamija",
     position: "Overall Student Coordinator",
-    image: "Shyam.jpg",
-    description: "Shyam Sundar Mallampalli, Our Student Coordinator, showcases extraordinary skills in Robotic Manipulators, CAD/CAM, FEA and Control Systems. Currently interned at Addverb."
-    ,instagram:"https://www.instagram.com/iam_shyamsundar/?utm_source=ig_web_button_share_sheet",
-    linkedin:"https://www.linkedin.com/in/shyamsundarmallampalli/"
+    image: "ja.jpg",
+    description: "Jay Dhamija, Our Student Coordinator, showcases extraordinary skills in Robotic Manipulators, CAD/CAM, FEA and Control Systems. Currently interned at Addverb."
+    ,instagram:"https://www.instagram.com/jay_dhamija?igsh=MWtva3RtcW9za250Mw==",
+    linkedin:"https://www.linkedin.com/in/jaydhamija?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+
+ },
+    {
+    name: "Rhitam Dutta",
+    position: "Overall Student Coordinator",
+    image: "rhita.jpg",
+    description: "Rhitam Dutta, Our Student Coordinator, showcases extraordinary skills in Robotic Manipulators, CAD/CAM, FEA and Control Systems. Currently interned at Addverb."
+    ,instagram:"https://www.instagram.com/rhitamdutta?igsh=MWphNG1yNmk2MGQ1Yw==",
+    linkedin:"https://www.linkedin.com/in/rhitamdutta?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
  },
   {
-    name: "Madhav Katyal",
+    name: "Pranjay Dhawan",
     position: "Overall Student Coordinator",
-    image: "Madhav.jpg",
-    description: "Madhav Katyal, our Student Coordinator, excels in PCB design and digital and analog circuits. His technical skills and leadership drive effective project coordination and innovation. Currently interned at Intute.ai."
-    ,instagram:"https://www.instagram.com/madhav_katyal_/?utm_source=ig_web_button_share_sheet",
-    linkedin:"https://www.linkedin.com/in/maadhav-katyal-4a7280226/"
+    image: "pranja.jpg",
+    description: "Pranjay Dhawan, our Student Coordinator, excels in PCB design and digital and analog circuits. His technical skills and leadership drive effective project coordination and innovation. Currently interned at Intute.ai."
+    ,instagram:"https://www.instagram.com/_.photoholic.pd._?igsh=ZHlyZ25hZXdrb2xp",
+    linkedin:"https://www.linkedin.com/in/pranjay-dhawan-6ba546143?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
  },];
   const teamMembers3=[
   {
-    name: "Manish Jain",
+    name: "Rhythm Kandhari",
     position: "General Secretary",
-    image: "ManishourTeam.png",
-    description: "Manish Jain, our General Secretary, adeptly wields Solidworks, ANSYS and 3D Printing, alongside supervising all the directorial and administrative tasks in the society, spearheading innovation and leadership."
-    ,instagram:"https://www.instagram.com/manish.jain07?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-    linkedin:"https://www.linkedin.com/in/manish-jain-937808289/"
+    image: "rhythm.png",
+    description: "Rhythm Kandhari, our General Secretary, adeptly wields Solidworks, ANSYS and 3D Printing, alongside supervising all the directorial and administrative tasks in the society, spearheading innovation and leadership."
+    ,instagram:"https://www.instagram.com/rhythm_kandhari?igsh=MTN6cXVybjV0emF6MQ==",
+    linkedin:"https://www.linkedin.com/in/rhythm-kandhari-25526929a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
   },];
   const teamMembers9=[
   {
-    name: "Jay Dhamija",
+    name: "Anikait Kaushik",
     position: "General Secretary",
-    image: "jay.jpg",
-    description: "Jay Dhamija, our General Secretary, excels in computers and electronics, including Computer Vision, PCB design, and ROS 2. His expertise drives innovation and supports our focus on advanced technology."
-    ,instagram:"https://www.instagram.com/jay_dhamija/?utm_source=ig_web_button_share_sheet",
-    linkedin:"https://www.linkedin.com/in/jay-dhamija-739923318/"
+    image: "anikait.jpg",
+    description: "Anikait Kaushik, our General Secretary, excels in computers and electronics, including Computer Vision, PCB design, and ROS 2. His expertise drives innovation and supports our focus on advanced technology."
+    ,instagram:"https://www.instagram.com/anikait_kaushik?igsh=MWZnbWFpaDR5MDNsdQ==",
+    linkedin:"https://www.linkedin.com/in/anikait-kaushik-9435b1289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
  },];
   const teamMembers4=[
     {
-      name: "Rhitam Dutta",
+      name: "Sargun Baweja",
       position: "Joint Secretary",
-      image: "rhitam.jpg",
-      description: "Rhitam Dutta, our Joint Secretary and Automation Lead, specializes in control systems, autonomous robotics, UI design, and system integration, while also managing external affairs and sponsorships."
-      ,instagram:"https://www.instagram.com/rhitamdutta?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-      linkedin:"https://www.linkedin.com/in/rhitamdutta/"
+      image: "sargun.jpg",
+      description: "Sargun Baweja, our Joint Secretary and Automation Lead, specializes in control systems, autonomous robotics, UI design, and system integration, while also managing external affairs and sponsorships."
+      ,instagram:"https://www.instagram.com/sargun_baweja_?igsh=M3JqanIxY3c2djRm",
+      linkedin:"https://www.linkedin.com/in/sargunbaweja?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   
     },
- 
+     {
+      name: "Udday Singh",
+      position: "Joint Secretary",
+      image: "udday.jpg",
+      description: "Udday Singh, our Joint Secretary and Automation Lead, specializes in control systems, autonomous robotics, UI design, and system integration, while also managing external affairs and sponsorships."
+      ,instagram:"",
+      linkedin:"https://www.linkedin.com/in/uday-singh04?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  
+    },
   {
-    name: "Astik Thukral",
+    name: "Aayush Grover",
     position: "Joint secretary",
-    image: "Astik.jpg",
-    description: "Astik Thukral, our Joint Secretary, excels in PCB design and embedded systems, enhancing innovation and engineering solutions with his technical expertise and leadership."
-    ,instagram:"https://www.instagram.com/astikthukral?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-    linkedin:"https://www.linkedin.com/in/astik-thukral/"
+    image: "aayush.jpg",
+    description: "Aayush Grover, our Joint Secretary, excels in PCB design and embedded systems, enhancing innovation and engineering solutions with his technical expertise and leadership."
+    ,instagram:"https://www.instagram.com/aayushgrover18?igsh=MWxvMDFic2tkMXhl",
+    linkedin:"https://www.linkedin.com/in/aayush-grover-253010280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
   },
   {
-    name: "Sahil Sharma",
-    position: "Joint Secretary",
-    image: "Sahil.jpg",
-    description: "Sahil Sharma, Joint Secretary at MARS, specializes in CAD/CAM, mechanical engineering, advancing innovation and technical excellence."
-    ,instagram:"https://www.instagram.com/yp_sahil_65/?utm_source=ig_web_button_share_sheet",
-    linkedin:"https://www.linkedin.com/in/sahil-sharma-a79440250/"
+    name: "Sheryl Varshney",
+    position: "Finance Secretary",
+    image: "sheryl.jpg",
+    description: "Sheryl Vashney, Finance Secretary at MARS, specializes in CAD/CAM, mechanical engineering, advancing innovation and technical excellence."
+    ,instagram:"https://www.instagram.com/sheryl.varshney?igsh=MWZ1MXVzZmhmb3c5Zg==",
+    linkedin:"https://www.linkedin.com/in/sheryl-varshney-1398b3295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
  },
-
 ];
 const teamMembers5=[
   {
-    name: "Shaurya Aggarwal",
-    position: "Mechanical Lead",
-    image: "shaurya.jpg",
-    description: "Shaurya Aggarwal, our Mechanical Lead specializes in CAD development, enhancing engineering projects and driving technological innovation."
-    ,instagram:"https://www.instagram.com/shaurya.aggarwal?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-    linkedin:"https://www.linkedin.com/in/shaurya-aggarwal-984b81258/"
+    name: "Gurkirat Singh",
+    position: "Technical Lead",
+    image: "gurKirat.jpg",
+    description: "Gurkirat Singh, our Technical Lead specializes in CAD development, enhancing engineering projects and driving technological innovation."
+    ,instagram:"https://www.instagram.com/kirat_singh_1?igsh=NHBvazhzMHFndGNo",
+    linkedin:"https://www.linkedin.com/in/gurkirat-singh-a0683a302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+
+  },
+    {
+    name: "Dhruv Sood",
+    position: "Technical Lead",
+    image: "dhruv.jpg",
+    description: "Dhruv Sood, our Technical Lead specializes in CAD development, enhancing engineering projects and driving technological innovation."
+    ,instagram:"https://www.instagram.com/soodhruv?igsh=bTRqbzQ4NDd5ZnJ4",
+    linkedin:"https://www.linkedin.com/in/dhruv-sood-zusa565energy?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
   },
   {
-    name: "Ekam Singh",
-    position: "Mecahnical Lead",
-    image: "Ekam.jpg",
-    description: "Ekam Singh, our Mechanical Lead, excels in Solidworks, NX, HyperMesh, driving engineering innovation and technological excellence."
-    ,instagram:"https://www.instagram.com/ekam._.1101/?utm_source=ig_web_button_share_sheet",
-    linkedin:"https://www.linkedin.com/in/ekam-singh-6660a228b/"
+    name: "Keshav Chhabra",
+    position: "Technical Lead",
+    image: "keshav.jpg",
+    description: "Keshav Chhabra, our Technical Lead, excels in Solidworks, NX, HyperMesh, driving engineering innovation and technological excellence."
+    ,instagram:"https://www.instagram.com/keshav_chhabra_01?igsh=MXN0YTllMHY0dWNrOA==",
+    linkedin:"https://www.linkedin.com/in/keshav-chhabra?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
   },];
-  const teamMembers6=[
-    {
-      name: "Pranjay Dhawan",
-      position: "Electronics Lead",
-      image: "pranjay.jpg",
-      description: "Pranjay Dhawan, our Electronics Lead, specializes in additive manufacturing, battery design, PCBs, all electronic circuits, and communication systems, driving innovation and reliability in every mission."
-      ,instagram:"https://www.instagram.com/guliani.yachit_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-    linkedin:"https://www.linkedin.com/in/yachit-g-baa953201/"
-
-  },
-  
-    
-    {
-      name: "Mrinal Sood",
-      position: "Electronics Lead",
-      image: "Mrinal.jpg",
-      description: "Mrinal Sood, our Electronics Lead, masters PCB design and electronics, his expertise significantly advancing our projects and innovation."
-      ,instagram:"https://www.instagram.com/mrinal_0007?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-      linkedin:"https://www.linkedin.com/in/mrinal-sood-86577425a/"
-  
-   },
-  
-  ];
-  const teamMembers7=[
-    {
-      name: "Nishit Mittal",
-      position: "Automation Lead",
-      image: "Nishit.jpg",
-      description: "Nishit Mittal, our Automation Lead, masters sensor integration and image processing, advancing our innovative automation projects."
-      ,instagram:"https://www.instagram.com/nishitmittal15?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-      linkedin:"https://www.linkedin.com/in/nishit-mittal-15nm/"
-  
-   },];
    
-  
-   
-  
-
 const Card = ({ name, position, image, description,instagram,linkedin }) => (
   <div className="card">
     <div className="card-inner">
@@ -337,17 +325,7 @@ Mentorship for innovation and growth   </li>    </ul>     </p>
           ))}
         </div>
         <div className="row">
-          {teamMembers6.map((member, index) => (
-            <Card key={index} {...member} />
-          ))}
-        </div>
-        <div className="row">
           {teamMembers5.map((member, index) => (
-            <Card key={index} {...member} />
-          ))}
-        </div>
-        <div className="row">
-          {teamMembers7.map((member, index) => (
             <Card key={index} {...member} />
           ))}
         </div>
