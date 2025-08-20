@@ -92,7 +92,7 @@ const teamMembers1 = [
      {
       name: "Udday Singh",
       position: "Joint Secretary",
-      image: "udday.JPG",
+      image: "uday.JPG",
       description: "Udday Singh, our Joint Secretary and Automation Lead, specializes in control systems, autonomous robotics, UI design, and system integration, while also managing external affairs and sponsorships."
       ,instagram:"",
       linkedin:"https://www.linkedin.com/in/uday-singh04?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
