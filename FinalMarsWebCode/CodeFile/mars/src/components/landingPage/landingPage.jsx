@@ -14,7 +14,6 @@ import WebVideo from '../../assets/video/website_video.mp4';
 import Linkedin from "../../assets/marslinkedin.png";
 import Insta from "../../assets/marsinsta.png";
 
-
 import {
   ImgHolder,
   LandingSideImg,
