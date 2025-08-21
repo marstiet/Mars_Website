@@ -115,7 +115,7 @@ export const LandingPage = () => {
   return (
     <div>
       <Rec>
-         <Reclink href ="https://docs.google.com/forms/d/1KOU6iPrSoGo9rfhbFmMBb1qevkOwzGM_VFj1gBGWLPo/edit" >
+         <Reclink href ="https://docs.google.com/forms/d/1yn_pJmo1uan-SBAgsFpJpaM6TtCVa11YFQmnLCnsFj8/edit" >
         Orientation and Recruitments
         </Reclink>
       </Rec>
