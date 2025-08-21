@@ -305,10 +305,10 @@ Mentorship for innovation and growth   </li>    </ul>     </p>
             <Card key={index} {...member} />
           ))}
         </div>
-        <div className="row"><div className="row2">
+        <div className="row2"><div className="row">
           {teamMembers2.map((member, index) => (
             <Card key={index} {...member} />
-          ))}</div><div className="row2">
+          ))}</div><div className="row">
           {teamMembers22.map((member, index) => (
             <Card key={index} {...member} />
           ))}</div>
@@ -322,10 +322,10 @@ Mentorship for innovation and growth   </li>    </ul>     </p>
             <Card key={index} {...member} />
           ))}
         </div>
-        <div className="row"><div className="row2">
+        <div className="row2"><div className="row">
           {teamMembers4.map((member, index) => (
             <Card key={index} {...member} />
-          ))}</div><div className="row2">
+          ))}</div><div className="row">
           {teamMembers44.map((member, index) => (
             <Card key={index} {...member} />
           ))}</div>
