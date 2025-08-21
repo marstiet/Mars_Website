@@ -30,8 +30,7 @@ const teamMembers1 = [
     ,instagram:"https://www.instagram.com/manish.jain07?igsh=djBlY2I5bWt4Nm43",
     linkedin:"https://www.linkedin.com/in/manishjain0710?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
- },];
- const teamMembers22=[
+ },
 
      {
     name: "Rhitam Dutta",
@@ -41,7 +40,8 @@ const teamMembers1 = [
     ,instagram:"https://www.instagram.com/rhitamdutta?igsh=MWphNG1yNmk2MGQ1Yw==",
     linkedin:"https://www.linkedin.com/in/rhitamdutta?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
- },
+ },];
+ const teamMembers22=[
   {
     name: "Jay Dhamija",
     position: "Overall Student Coordinator",
@@ -99,7 +99,8 @@ const teamMembers1 = [
       ,instagram:"",
       linkedin:"https://www.linkedin.com/in/uday-singh04?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   
-    },
+    },];
+const teamMembers44[
   {
     name: "Aayush Grover",
     position: "Joint secretary",
@@ -321,10 +322,13 @@ Mentorship for innovation and growth   </li>    </ul>     </p>
             <Card key={index} {...member} />
           ))}
         </div>
-        <div className="row">
+        <div className="row"><div className="row2">
           {teamMembers4.map((member, index) => (
             <Card key={index} {...member} />
-          ))}
+          ))}</div><div className="row2">
+          {teamMembers44.map((member, index) => (
+            <Card key={index} {...member} />
+          ))}</div>
         </div>
         <div className="row">
           {teamMembers5.map((member, index) => (
