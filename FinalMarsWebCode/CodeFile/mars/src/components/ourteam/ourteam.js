@@ -100,7 +100,7 @@ const teamMembers1 = [
       linkedin:"https://www.linkedin.com/in/uday-singh04?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   
     },];
-const teamMembers44[
+const teamMembers44=[
   {
     name: "Aayush Grover",
     position: "Joint secretary",
