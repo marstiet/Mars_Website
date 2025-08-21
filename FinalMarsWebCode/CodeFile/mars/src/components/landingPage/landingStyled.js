@@ -37,7 +37,7 @@ export const Rec = styled.div`
     font-size: 14px;
   }
 
-  @media (max-width: 455px) {
+  @media (max-width: 480px) {
     padding: 0.3rem 0.6rem;
     font-size: 12px;
   }
