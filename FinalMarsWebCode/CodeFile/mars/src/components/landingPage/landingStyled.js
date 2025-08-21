@@ -11,40 +11,43 @@ export const ImgHolder = styled.div`
     min-height: 300px;
   }
 `;
+
 export const Rec = styled.div`
-width:fit-content;
-color:black;
-background:#fe6e3a;
-position:sticky;
-top:50%;
-left:100%;
-display:flex;
-flex-direction:right;
-margin-right:-10.5vw;
-padding:1vw;
-transform:rotate(90deg);
-z-index:1000;
-&:hover{
+  width: fit-content;
+  color: black;
+  background: #fe6e3a;
+  position: fixed;
+  top: 60%;
+  right: 0;
+  transform: translateY(-45%) rotate(90deg); /* fine-tuned */
+  transform-origin: top right;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  z-index: 1000;
+  cursor: pointer;
+
+  &:hover {
     transition-duration: 0.2s;
-    scale: 1.1;}
-    
-    @media(max-width:455px){
-    position:sticky;
-    margin-right:20.5;
+    scale: 1.1;
+  }
 
-    }
-        @media(max-width:768px){
-    margin-right:-30.5;
-       
-    }
-    
+  @media (max-width: 768px) {
+    padding: 0.4rem 0.8rem;
+    font-size: 14px;
+  }
 
-`
-export const Reclink=styled.a`
-text-decoration:none;
-color:black;
+  @media (max-width: 455px) {
+    padding: 0.3rem 0.6rem;
+    font-size: 12px;
+  }
+`;
 
-`
+export const Reclink = styled.a`
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+`;
 
 export const MainImg = styled.img`
   width: 100%;
