@@ -30,7 +30,7 @@ z-index:1000;
     
     @media(max-width:455px){
     position:sticky;
-    margin-right:-25.5;
+    margin-right:-20.5;
 
     }
         @media(max-width:768px){
