@@ -32,6 +32,16 @@ const teamMembers1 = [
 
  },];
  const teamMembers22=[
+
+     {
+    name: "Rhitam Dutta",
+    position: "Overall Student Coordinator",
+    image: "rhita.JPG",
+    description: "Rhitam Dutta, Our Student Coordinator, showcases extraordinary skills in Robotic Manipulators, CAD/CAM, FEA and Control Systems. Currently interned at Addverb."
+    ,instagram:"https://www.instagram.com/rhitamdutta?igsh=MWphNG1yNmk2MGQ1Yw==",
+    linkedin:"https://www.linkedin.com/in/rhitamdutta?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+
+ },
   {
     name: "Jay Dhamija",
     position: "Overall Student Coordinator",
@@ -41,15 +51,7 @@ const teamMembers1 = [
     linkedin:"https://www.linkedin.com/in/jaydhamija?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
  },
-    {
-    name: "Rhitam Dutta",
-    position: "Overall Student Coordinator",
-    image: "rhita.JPG",
-    description: "Rhitam Dutta, Our Student Coordinator, showcases extraordinary skills in Robotic Manipulators, CAD/CAM, FEA and Control Systems. Currently interned at Addverb."
-    ,instagram:"https://www.instagram.com/rhitamdutta?igsh=MWphNG1yNmk2MGQ1Yw==",
-    linkedin:"https://www.linkedin.com/in/rhitamdutta?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-
- },
+  
   {
     name: "Pranjay Dhawan",
     position: "Overall Student Coordinator",
@@ -93,7 +95,7 @@ const teamMembers1 = [
       name: "Udday Singh",
       position: "Joint Secretary",
       image: "uday.JPG",
-      description: "Udday Singh, our Joint Secretary and Automation Lead, specializes in control systems, autonomous robotics, UI design, and system integration, while also managing external affairs and sponsorships."
+      description: "Udday Singh, our Joint Secretary, specializes in CAD/CAM, mechanical engineering, advancing innovation and technical excellence."
       ,instagram:"",
       linkedin:"https://www.linkedin.com/in/uday-singh04?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   
@@ -111,7 +113,7 @@ const teamMembers1 = [
     name: "Sheryl Varshney",
     position: "Finance Secretary",
     image: "sheryl.JPG",
-    description: "Sheryl Vashney, Finance Secretary at MARS, specializes in CAD/CAM, mechanical engineering, advancing innovation and technical excellence."
+    description: "Sheryl Vashney, Finance Secretary at MARS, and Automation Lead, specializes in control systems, autonomous robotics, UI design, and system integration, while also managing external affairs and sponsorships."
     ,instagram:"https://www.instagram.com/sheryl.varshney?igsh=MWZ1MXVzZmhmb3c5Zg==",
     linkedin:"https://www.linkedin.com/in/sheryl-varshney-1398b3295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
