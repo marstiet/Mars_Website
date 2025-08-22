@@ -26,7 +26,7 @@ const teamMembers1 = [
     name: "Manish Jain",
     position: "Overall Student Coordinator",
     image: "man.JPG",
-    description: "Manish Jain, our Student Coordinator, is proficient in CAD, FEA and Control Systems. His skills facilitate effective project coordination. Currently interned at Addverb."
+    description: "Manish Jain, our Student Coordinator, is proficient in CAD/FEA, 3D Printing and Manufacturing, with strong expertise in managing operations, finances, and workflow. Determing clear role allocation for everyone, and oversees plans to ensure successful execution."
     ,instagram:"https://www.instagram.com/manish.jain07?igsh=djBlY2I5bWt4Nm43",
     linkedin:"https://www.linkedin.com/in/manishjain0710?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
@@ -46,7 +46,7 @@ const teamMembers1 = [
     name: "Jay Dhamija",
     position: "Overall Student Coordinator",
     image: "ja.JPG",
-    description: "Jay Dhamija, Our Student Coordinator, showcases extraordinary skills in Robotic Manipulators, CAD/CAM, FEA and Control Systems. Currently interned at Addverb."
+    description: "Jay Dhamija, Our Student Coordinator, is proficient in ROS2 and MATLAB with strong knowledge of control systems and SLAM, specializing in robotics development and intelligent autonomous solutions."
     ,instagram:"https://www.instagram.com/jay_dhamija?igsh=MWtva3RtcW9za250Mw==",
     linkedin:"https://www.linkedin.com/in/jaydhamija?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
@@ -56,7 +56,7 @@ const teamMembers1 = [
     name: "Pranjay Dhawan",
     position: "Overall Student Coordinator",
     image: "pranja.JPG",
-    description: "Pranjay Dhawan, our Student Coordinator, excels in PCB design and digital and analog circuits. His technical skills and leadership drive effective project coordination and innovation. Currently interned at Intute.ai."
+    description: "Pranjay Dhawan, our Student Coordinator, oversees the electronics department with proficiency in PCB design and hardware electronics, while also managing additive manufacturing and component fabrication to ensure efficient prototyping and implementation."
     ,instagram:"https://www.instagram.com/_.photoholic.pd._?igsh=ZHlyZ25hZXdrb2xp",
     linkedin:"https://www.linkedin.com/in/pranjay-dhawan-6ba546143?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
