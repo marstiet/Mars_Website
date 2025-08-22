@@ -8,6 +8,7 @@ import MechanicalImg from "../../assets/mechanicalchange.jpg";
 import ElectronicsImg from "../../assets/electronicsdepart.jpg";
 import AbexImg from "../../assets/abexchange.jpg";
 import OAImg from "../../assets/organizationaffairs.jpg";
+
 export const DepartmentData = [
     {
         id: 1,
