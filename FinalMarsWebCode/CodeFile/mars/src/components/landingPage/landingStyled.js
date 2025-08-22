@@ -159,7 +159,7 @@ transform: rotate(0deg);
     width: 50%;
     margin-left:-58vw;
     height: auto;
-    transform: rotate(18deg);
+    transform: rotate(19deg);
     top:218vw;
     z-index:-1;
 }
