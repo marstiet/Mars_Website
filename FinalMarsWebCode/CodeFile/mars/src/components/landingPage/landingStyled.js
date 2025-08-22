@@ -2,6 +2,39 @@ import styled from "styled-components";
 import NulshockBold from '../../assets/font/Nulshock-Bold.woff';
 
 
+
+export const DemoDataImg = styled.img`
+  width: 240px;
+  height: 240px;
+
+  @media (max-width: 768px) {
+    width: 180px;
+    height: 180px;
+  }
+
+  @media (max-width: 480px) {
+    width: 150px;
+    height: 150px;
+  }
+`;
+
+// Video
+export const MainVideo = styled.video`
+  width: 100%;
+  height: auto;
+  border-radius: 0vw;
+  margin: 0;
+
+  @media (max-width: 768px) {
+    border-radius: 8px;
+    margin: 1rem 0;
+  }
+`;
+
+
+
+
+
 export const ImgHolder = styled.div`
 width: 100%;
 height: 80%;
@@ -131,29 +164,7 @@ transform: rotate(0deg);
 }
 `
 
-export const DemoDataImg = styled.img`
-width: 240px;
-height: 240px;
 
-@media (max-width: 768px) {
-    width: 180px;
-    height: 180px;
-}
-
-@media (max-width: 480px) {
-    width: 120px;
-    height: 120px;
-}
-`
-
-export const MainVideo = styled.video`
-  width: 100%;
-  height: auto;
-  border-radius: 0px; 
-  margin-top: 0px;
-  margin-left: 0%;
-  margin-bottom: 0px;
-`;
 
 export const LandingSideImgHolder = styled.div`
 width:fit-content;
