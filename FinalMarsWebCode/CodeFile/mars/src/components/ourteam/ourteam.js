@@ -26,7 +26,7 @@ const teamMembers1 = [
     name: "Manish Jain",
     position: "Overall Student Coordinator",
     image: "man.JPG",
-    description: "Manish Jain, our Student Coordinator, is proficient in CAD/FEA, 3D Printing and Manufacturing, with strong expertise in managing operations, finances, and workflow. Determing clear role allocation for everyone, and oversees plans to ensure successful execution."
+    description: "Manish Jain, our Student Coordinator, is proficient in CAD/FEA, 3D Printing and Manufacturing, with strong expertise in managing operations, finances, and workflow. Determining clear role allocation for everyone, and oversees plans to ensure successful execution."
     ,instagram:"https://www.instagram.com/manish.jain07?igsh=djBlY2I5bWt4Nm43",
     linkedin:"https://www.linkedin.com/in/manishjain0710?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
