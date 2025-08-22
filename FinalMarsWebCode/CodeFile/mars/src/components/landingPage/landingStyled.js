@@ -51,8 +51,8 @@ height: 80%;
 
 @media (max-width: 480px) {
 
-margin-top:0vw;
-   
+margin-top:-24.5vw;
+   z-index:-1;
     
 }
 
