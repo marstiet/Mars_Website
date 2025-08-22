@@ -40,18 +40,18 @@ export const ImgHolder = styled.div`
 width: 100%;
 height: 80%;
 @media (max-width: 1024px) {
-    margin-top: -22vw;
+    margin-top: 0vw;
  
 }
 
 @media (max-width: 768px) {
-    margin-top: -28vw;
+    margin-top: 0vw;
     
 }
 
 @media (max-width: 480px) {
 
-margin-top:-24.5vw;
+margin-top:0vw;
    
     
 }
