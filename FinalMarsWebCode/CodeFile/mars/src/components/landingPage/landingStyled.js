@@ -160,7 +160,7 @@ transform: rotate(0deg);
     margin-left:-58vw;
     height: auto;
     transform: rotate(18deg);
-    top:212vw;
+    top:218vw;
     z-index:-1;
 }
 `
