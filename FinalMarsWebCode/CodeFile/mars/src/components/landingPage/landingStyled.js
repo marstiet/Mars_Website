@@ -27,6 +27,7 @@ export const MainVideo = styled.video`
 
   @media (max-width: 768px) {
     border-radius: 8px;
+    margin-top:5vw;
     margin: 1rem 0;
   }
 `;
