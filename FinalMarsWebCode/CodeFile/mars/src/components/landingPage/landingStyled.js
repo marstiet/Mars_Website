@@ -1,16 +1,28 @@
 import styled from "styled-components";
 import NulshockBold from '../../assets/font/Nulshock-Bold.woff';
 
-// Image Holder
-export const ImgHolder = styled.div`
-  width: 100%;
-  height: 80%;
 
-  @media (max-width: 768px) {
-    height: auto;
-    min-height: 300px;
-  }
-`;
+export const ImgHolder = styled.div`
+width: 100%;
+height: 80%;
+@media (max-width: 1024px) {
+    margin-top: -22vw;
+ 
+}
+
+@media (max-width: 768px) {
+    margin-top: -28vw;
+    
+}
+
+@media (max-width: 480px) {
+
+margin-top:-24.5vw;
+   
+    
+}
+
+`
 
 export const Rec = styled.div`
   width: fit-content;
@@ -49,244 +61,361 @@ export const Reclink = styled.a`
   font-weight: 600;
 `;
 
-export const MainImg = styled.img`
-  width: 100%;
-  height: 100%;
 
-  @media (max-width: 768px) {
-    object-fit: cover;
-    height: auto;
-  }
-`;
+export const MainImg = styled.img`
+width: 100%;
+height: 100%;
+
+@media (max-width: 1024px) {
+    margin-top: -22vw;
+ 
+}
+
+@media (max-width: 768px) {
+    margin-top: -28vw;
+    
+}
+
+@media (max-width: 480px) {
+position:relative;
+top:-35vw;
+    margin-top: 35vw;
+    width:100%;
+    height:120vw;
+    
+}
+` 
 
 export const LandingSideImg = styled.img`
-  height: 45%;
-  width: 60%;
-  margin-top: 19.5vw;
-  margin-right: -14vw;
+height: 45%;
+width: 60%;
+margin-top: 300px;
+padding: 0px;
+margin-right: -210px;
+padding: 0%;
 
-  @media (max-width: 768px) {
-    width: 90%;
-    margin-right: 0;
-    margin-top: 2rem;
-    height: auto;
-  }
+@media (max-width: 1024px) {
+    width: 50%;
+    margin-right: -150px;
+    margin-top: 200px;
+}
 
-  @media (max-width: 480px) {
-    width: 95%;
-    margin-top: 1rem;
-  }
-`;
+@media (max-width: 768px) {
+    width: 50%;
+    margin-right: -100px;
+    margin-top: 150px;
+    height: 35%;
+}
+
+@media (max-width: 480px) {
+    width: 60%;
+    margin-right: -70px;
+    margin-top: 100px;
+    height: 25%;
+}
+`
 
 export const RoverImg = styled.img`
-  width: 110%;
-  height: 100%;
-  transform: rotate(0deg);
+position:relative;
+width: 110%;
+height: 100%;
+transform: rotate(0deg);
 
-  @media (max-width: 768px) {
-    width: 100%;
+@media (max-width: 768px) {
+    width: 50%;
+    margin-left:-58vw;
     height: auto;
-  }
-`;
+    transform: rotate(18deg);
+    top:212vw;
+    z-index:-1;
+}
+`
 
 export const DemoDataImg = styled.img`
-  width: 240px;
-  height: 240px;
+width: 240px;
+height: 240px;
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     width: 180px;
     height: 180px;
-  }
+}
 
-  @media (max-width: 480px) {
-    width: 150px;
-    height: 150px;
-  }
-`;
+@media (max-width: 480px) {
+    width: 120px;
+    height: 120px;
+}
+`
 
-// Video
 export const MainVideo = styled.video`
   width: 100%;
   height: auto;
-  border-radius: 0vw;
-  margin: 0;
-
-  @media (max-width: 768px) {
-    border-radius: 8px;
-    margin: 1rem 0;
-  }
+  border-radius: 0px; 
+  margin-top: 0px;
+  margin-left: 0%;
+  margin-bottom: 0px;
 `;
 
-// Side Image Holders
 export const LandingSideImgHolder = styled.div`
-  width: 540px;
-  height: 730px;
-  position: absolute;
-  right: 0;
-  margin-top: -315px;
+width:fit-content;
+position: absolute;
+right: 0px;
+margin-top: -315px;
+z-index:1;
+@media (max-width: 1024px) {
+    margin-top: -250px;
+    width:20vw;
+}
 
-  @media (max-width: 768px) {
-    width: 100%;
-    height: auto;
+@media (max-width: 768px) {
     position: relative;
-    margin-top: 0;
-    padding: 0;
-    z-index: 1;
-  }
-`;
+    margin-top: -150px;
+    margin-left:60vw;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+}
+
+@media (max-width: 480px) {
+    margin-top: -100px;
+}
+`
 
 export const LandingSecoundSideImgHolder = styled.div`
-  width: 400px;
-  height: 36.2rem;
-  position: absolute;
-  margin-top: -290px;
+width: 400px;
+height:36.2rem;
+position: absolute;
+margin-top: -290px;
+z-index:1;
+@media (max-width: 1024px) {
+    width: 300px;
+    height: 30rem;
+    margin-top: -200px;
+}
 
-  @media (max-width: 768px) {
-    width: 100%;
-    position: static;
+@media (max-width: 768px) {
+  
+    width: 60%;
     height: auto;
-    margin-top: 1.5rem;
-    padding: 0 1rem;
-  }
-`;
+    margin-top: -242vw;
+    display: flex;
+    justify-content: center;
+}
 
-// Content
+@media (max-width: 480px) {
+    width: 80%;
+    height: auto;
+}
+`
+
 export const ContentHolder = styled.div`
-  position: absolute;
-  margin-top: -57%;
-  padding: 0;
+position: absolute;
+margin-top:-57%;
+padding: 0px;
+z-index:1;
+@media (max-width: 1024px) {
+    margin-top: -90vw;
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     position: relative;
-    margin-top: 0;
-    width: 100%;
-    padding: 1rem;
-    z-index: 10;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 8px;
-  }
-`;
+    margin-top: -145vw;
+    padding: 20px;
+     background: url("Landing2.jpg") no-repeat center;
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: transparent; 
+}
+` 
 
 export const CountHolder = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-  padding: 0;
-  width: 100%;
-  margin: 2rem auto;
+margin-left: 150px;
+display: flex;
+align-items: center;
+padding: 0px;
 
-  @media (max-width: 768px) {
-    flex-direction: column;
-    gap: 1.5rem;
-    margin: 1.5rem auto;
-  }
-`;
+@media (max-width: 1024px) {
+    margin-left: 100px;
+}
+
+@media (max-width: 768px) {
+    margin-left: -40vw;
+    margin-top:-15vw;
+    justify-content: center;
+}
+`
 
 export const CountContent = styled.div`
-  margin-left: -160px;
-  font-size: clamp(2rem, 5vw, 3.2rem);
-  font-weight: 900;
-  color: #111828;
-  font-family: 'Nulshock';
-  src: url(${NulshockBold}) format('truetype');
+margin-left: -160px;
+font-size: 50px;
+font-weight: 900;
+color: #111828;
+font-family: 'Nulshock';
+src: url(${NulshockBold}) format('truetype');
 
-  @media (max-width: 768px) {
-    margin-left: 0;
-    font-size: clamp(1.5rem, 4vw, 2.5rem);
-  }
-`;
+@media (max-width: 1024px) {
+    font-size: 40px;
+    margin-left: -140px;
+}
+
+@media (max-width: 768px) {
+    font-size: 20px;
+    margin-left: -100px;
+
+}
+
+@media (max-width: 480px) {
+    font-size: 20px;
+    margin-left: -80px;
+}
+`
 
 export const Count = styled.div`
-  font-size: clamp(3rem, 15vw, 11rem);
-  font-weight: 800;
-  color: #fc8b63;
-  font-family: 'Nulshock';
-  src: url(${NulshockBold}) format('truetype');
+font-size: 180px;
+font-weight: 800;
+color: #fc8b63;
+font-family: 'Nulshock';
+src: url(${NulshockBold}) format('truetype');
+font-weight: bold;
+font-style: normal;
 
-  @media (max-width: 768px) {
-    font-size: clamp(2.5rem, 12vw, 8rem);
-  }
-`;
+@media (max-width: 1024px) {
+    font-size: 140px;
+}
+
+@media (max-width: 768px) {
+    font-size: 100px;
+}
+
+@media (max-width: 480px) {
+    font-size: 65px;
+}
+`
 
 export const ContentOne = styled.div`
-  text-align: justify;
-  margin-left: 180px;
-  margin-top: 20px;
-  width: 60%;
-  display: flex;
-  flex-wrap: wrap;
-  font-size: x-large;
-  font-weight: bold;
-  line-height: 2rem;
-  color: black;
-  font-family: "Play", sans-serif;
+text-align: justify;
+margin-left:180px ;
+margin-top: 20px;
+width: 60%;
+display: flex;
+flex-wrap: wrap;
+font-size:x-large;
+font-weight: bold;
+line-height: 2rem;
+color: black;
+font-family: "Play", sans-serif;
 
-  @media (max-width: 768px) {
-    margin: 1rem 0;
+@media (max-width: 1024px) {
+    margin-left: 120px;
+    width: 70%;
+    font-size: large;
+}
+
+@media (max-width: 768px) {
+    margin-left: 0;
     width: 100%;
-    font-size: 1.1rem;
-    text-align: left;
-    line-height: 1.6rem;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 1rem;
-    border-radius: 8px;
-  }
+    font-size: medium;
+    line-height: 1.5rem;
+        margin-top:0vw;
+}
 
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
+    font-size: small;
+    line-height: 1rem;
+}
+`
+
+export const ContentSecond = styled.div`
+text-align: justify;
+margin-left:180px;
+margin-top: 40px;
+width: 60%;
+display: flex;
+flex-wrap: wrap;
+font-size:x-large;
+line-height: 2rem;
+font-weight: bold;
+color: black;
+font-family: "Play", sans-serif;
+
+@media (max-width: 1024px) {
+    margin-left: 120px;
+    width: 70%;
+    font-size: large;
+}
+
+@media (max-width: 768px) {
+    margin-left: 0;
     width: 100%;
-    font-size: 1rem;
-    margin: 0.5rem 0;
-    padding: 0.8rem;
-  }
-`;
+    font-size: medium;
+    line-height: 1.5rem;
+    margin-top: 20px;
+}
 
-export const ContentSecond = styled(ContentOne)`
-  margin-top: 40px;
+@media (max-width: 480px) {
+    font-size: small;
+    line-height: 1.3rem;
+}
+`
 
-  @media (max-width: 768px) {
-    margin-top: 1rem;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
-  }
-`;
-
-// Boxes
 export const BoxWrapper = styled.div`
-  display: flex;
-  width: 90%;
-  justify-content: flex-end;
-  align-items: center;
-  margin-top: 80px;
+display: flex;
+width: 90%;
+justify-content: end;
+align-items: center;
+margin-top: 80px;
 
-  @media (max-width: 768px) {
-    flex-direction: column;
-    margin-top: 2rem;
-    align-items: center;
-    gap: 1rem;
+@media (max-width: 1024px) {
     width: 100%;
     justify-content: center;
-  }
-`;
+}
+
+@media (max-width: 768px) {
+    flex-direction: row;
+    width:fit-content;
+    gap: 5px;
+    margin-top: 45px;
+    margin-left:25vw;
+}
+
+@media (max-width: 480px) {
+    margin-top: 20px;
+}
+`
 
 export const Box = styled.div`
-  width: clamp(130px, 20vw, 170px);
-  height: clamp(130px, 20vw, 170px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  color: white;
-  font-weight: 800;
-  flex-direction: column;
-  font-size: clamp(16px, 3vw, 20px);
-  font-family: 'Nulshock';
-  src: url(${NulshockBold}) format('truetype');
-  border-radius: 8px;
-  text-align: center;
-`;
+width: 170px;
+height: 170px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+color: white;
+margin-right: 40px;
+font-weight:800 ;
+flex-direction: column;
+font-size: 20px;
+font-family: 'Nulshock';
+src: url(${NulshockBold}) format('truetype');
+
+@media (max-width: 1024px) {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    width: fit-content;
+    margin-right: 2vw;
+    flex-direction: column;
+    gap: 8px;
+}
+
+@media (max-width: 480px) {
+    width: 80px;
+    height: 50px;
+    font-size: 10px;
+}
+`
 
 // Drive Section
 export const DriveUsHolder = styled.div`
