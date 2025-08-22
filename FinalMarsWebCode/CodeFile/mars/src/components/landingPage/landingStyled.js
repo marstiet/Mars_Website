@@ -91,7 +91,7 @@ height: 45%;
 width: 60%;
 margin-top: 300px;
 padding: 0px;
-margin-right: -210px;
+margin-right: -230px;
 padding: 0%;
 
 @media (max-width: 1024px) {
