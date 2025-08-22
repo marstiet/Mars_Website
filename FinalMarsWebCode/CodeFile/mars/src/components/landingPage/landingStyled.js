@@ -41,12 +41,12 @@ width: 100%;
 height: 80%;
 @media (max-width: 1024px) {
     margin-top: 0vw;
- 
+    z-index:-1;
 }
 
 @media (max-width: 768px) {
     margin-top: 0vw;
-    
+       z-index:-1;
 }
 
 @media (max-width: 480px) {
