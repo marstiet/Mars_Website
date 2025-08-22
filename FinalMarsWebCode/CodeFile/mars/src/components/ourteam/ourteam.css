@@ -777,6 +777,7 @@ gap:3rem;
 }
 .card-overlay{
   font-size: 0.7rem;
+    text-align:center;
 }
 
 .social-icons {
@@ -945,6 +946,7 @@ gap:16vw;
  }
 .card-overlay{
   font-size: 12px;
+    text-align:center;
 }
  .des{
   margin-left: 10px;
@@ -957,6 +959,7 @@ gap:16vw;
 }
 .card-overlay{
   font-size: 0.7rem;
+    text-align:center;
 }
 
 .social-icons {
