@@ -10,7 +10,7 @@ export const NavWrapper = styled.div`
   width: 100%;
   font-family: 'Nulshock';
   src: url(${NulshockBold}) format('truetype');
-  z-index: 2;
+  z-index: 1000;
 `;
 
 export const NavHolder = styled.div`
