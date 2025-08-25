@@ -96,7 +96,7 @@ const teamMembers1 = [
       position: "Joint Secretary",
       image: "uday.JPG",
       description: "Uday Singh, our Joint Secretary, excels in leadership and coordination, with proficiency in CAD/CAE, FEA, and Verilog. Brings strong interdepartmental knowledge through experience in control systems and electronics, ensuring smooth collaboration and flawless execution of team operations."
-      ,instagram:"",
+      ,instagram:"https://www.instagram.com/uday04singh?igsh=czVwazJpaHBuM3J0",
       linkedin:"https://www.linkedin.com/in/uday-singh04?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   
     },];
