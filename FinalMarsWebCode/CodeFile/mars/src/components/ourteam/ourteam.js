@@ -92,10 +92,10 @@ const teamMembers1 = [
   
     },
      {
-      name: "Udday Singh",
+      name: "Uday Singh",
       position: "Joint Secretary",
       image: "uday.JPG",
-      description: "Udday Singh, our Joint Secretary, specializes in CAD/CAM, mechanical engineering, advancing innovation and technical excellence."
+      description: "Uday Singh, our Joint Secretary, excels in leadership and coordination, with proficiency in CAD/CAE, FEA, and Verilog. Brings strong interdepartmental knowledge through experience in control systems and electronics, ensuring smooth collaboration and flawless execution of team operations."
       ,instagram:"",
       linkedin:"https://www.linkedin.com/in/uday-singh04?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   
