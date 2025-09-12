@@ -66,7 +66,7 @@ const teamMembers1 = [
     name: "Rhythm Kandhari",
     position: "General Secretary",
     image: "rhythm.JPG",
-    description: "Rhythm Kandhari, our General Secretary, adeptly wields Solidworks, ANSYS and 3D Printing, alongside supervising all the directorial and administrative tasks in the society, spearheading innovation and leadership."
+    description: "Rhythm Kandhari, our General Secretary, excels in computers and electronics, including Computer Vision, PCB design, and ROS 2. His expertise drives innovation and supports our focus on advanced technology."
     ,instagram:"https://www.instagram.com/rhythm_kandhari?igsh=MTN6cXVybjV0emF6MQ==",
     linkedin:"https://www.linkedin.com/in/rhythm-kandhari-25526929a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
@@ -76,7 +76,7 @@ const teamMembers1 = [
     name: "Anikait Kaushik",
     position: "General Secretary",
     image: "anikait.JPG",
-    description: "Anikait Kaushik, our General Secretary, excels in computers and electronics, including Computer Vision, PCB design, and ROS 2. His expertise drives innovation and supports our focus on advanced technology."
+    description: "Anikait Kaushik, our General Secretary, adeptly wields Solidworks, ANSYS and 3D Printing, alongside supervising all the directorial and administrative tasks in the society, spearheading innovation and leadership."
     ,instagram:"https://www.instagram.com/anikait_kaushik?igsh=MWZnbWFpaDR5MDNsdQ==",
     linkedin:"https://www.linkedin.com/in/anikait-kaushik-9435b1289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
