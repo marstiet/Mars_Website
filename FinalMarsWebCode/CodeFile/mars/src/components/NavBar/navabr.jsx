@@ -24,7 +24,7 @@ export const Navbar = () => {
                     <Img src={MarkImg} alt="Img" />
                 </NameHoder>
             </MarkNameHolder>
-            <Link to='/irc' style={{textDecoration:'none' , color:'white'}} ><NavHeading> IRC </NavHeading></Link>
+            <Link to='/irc' style={{textDecoration:'none' , color:'white'}} ><NavHeading> SPROS </NavHeading></Link>
             <Link to='/Ourteam' style={{textDecoration:'none' , color:'white'}} ><NavHeading> Our Team </NavHeading></Link>
         </NavHolder>
         </NavWrapper>
