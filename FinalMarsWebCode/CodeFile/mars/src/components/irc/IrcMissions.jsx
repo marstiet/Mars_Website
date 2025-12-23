@@ -55,60 +55,28 @@ function IrcMissions() {
         </div>
       </article>
 
+
       <article className={styles.missionCard2}>
         <div className={styles.missionContent}>
-          <div className={styles.missionImageColumn}>
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/3e1bb0ac0c3da7fcd517b24f2fca9a2d041434d6?placeholderIfAbsent=true&apiKey=bcf7fc84fa744c8c842bdc968c5aeb09"
-              className={styles.missionImage}
-              alt="Autonomous Expedition"
-            />
-          </div>
           <div className={styles.missionTextColumn}>
             <div className={styles.missionText}>
-              <h2>Autonomous Expedition (AutEx)</h2>
+              <h2>Reconnaissance and Autonomous Delivery Operation (RADO)</h2>
               <p>
-                <h2>Objective: </h2> Navigate rugged terrain autonomously between markers.
+                Objective: Conduct reconnaissance and autonomously deliver objects within 500 meters of the base station.
               </p>
               <h2>Tasks:</h2>
               <ul>
                 <li>
-                  Detect arrow signs, pause for 10 seconds, and navigate to an
-                  orange cone.
-                </li>
-                <li>Document markers' GPS coordinates and directions.</li>
-                <li>Compile a site map using collected data.</li>
-              </ul>
-              <p>
-                Key Rule: Operate fully autonomously without base station
-                commands.
-              </p>
-            </div>
-          </div>
-        </div>
-      </article>
-
-      <article className={styles.missionCard3}>
-        <div className={styles.missionContent}>
-          <div className={styles.missionTextColumn}>
-            <div className={styles.missionText}>
-              <h2>Reconnaissance and Delivery Operation (RDO)</h2>
-              <p>
-                <h2>Objective: </h2>Locate, retrieve, and deliver objects within 500
-                meters of the base station.
-              </p>
-              <h2>Tasks:</h2>
-              <ul>
-                <li>
-                  Reconnaissance (10 min): Locate objects, record GPS
-                  coordinates, and store one object.
+                  Reconnaissance (10 min): Search and locate scattered objects, capture photographs, 
+                  record GPS coordinates, and store one object in the rover’s cache (no delivery in this stage).
                 </li>
                 <li>
-                  Delivery (20 min): Retrieve and deliver objects (up to 5 kg)
-                  to designated GPS locations.
+                  Autonomous Delivery (20 min): Pick up objects and deliver them to designated GPS locations. 
+                  Deliveries must be autonomous to earn full points; non-autonomous delivery scores 50%.
                 </li>
               </ul>
-              <p>Scoring: Based on accuracy and proximity to targets.</p>
+              <p>Scoring: Based on correct object identification, delivery accuracy,
+                 autonomy level, and proximity to target locations.</p>
             </div>
           </div>
           <div className={styles.missionImageColumn}>
@@ -121,7 +89,7 @@ function IrcMissions() {
         </div>
       </article>
 
-      <article className={styles.missionCard4}>
+      <article className={styles.missionCard3}>
         <div className={styles.missionContent}>
           <div className={styles.missionImageColumn}>
             <img
