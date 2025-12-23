@@ -6,7 +6,7 @@ function IrcHeader() {
   return (
     <header className={styles.header}>
       {/* Top-right badge */}
-      <img src="/ICON.png" alt="Badge" className={styles.badge} />
+      <img src="/spaceroboticssociety_logo1.png" alt="Badge" className={styles.badge} />
 
       <section className={styles.container}>
         <div className={styles.contentWrapper}>
