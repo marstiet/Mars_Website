@@ -6,7 +6,7 @@ function IrcMissions() {
   return (
     <section className={styles.missionsSection}>
       <img
-        src="/Backgroundimg.svg"
+        src="/missionbg.png"
         className={styles.backgroundImage}
         alt="Missions background"
       />
