@@ -12,16 +12,16 @@ function IrcHeader() {
         <div className={styles.contentWrapper}>
           <h1 className={styles.title}>
             <div className={styles.word1}>
-              <span className={styles.highlightedLetter}>I</span>
-              <span className={styles.regularText}>nternational</span>
+              <span className={styles.highlightedLetter}>Sp</span>
+              <span className={styles.regularText}>ace</span>
             </div>
             <div className={styles.word2}>
-              <span className={styles.highlightedLetter}>R</span>
-              <span className={styles.regularText}>over</span>
+              <span className={styles.highlightedLetter}>Ro</span>
+              <span className={styles.regularText}>botics</span>
             </div>
             <div className={styles.word3}>
-              <span className={styles.highlightedLetter}>C</span>
-              <span className={styles.regularText}>hallenge</span>
+              <span className={styles.highlightedLetter}>S</span>
+              <span className={styles.regularText}>ociety</span>
             </div>
           </h1>
         </div>
