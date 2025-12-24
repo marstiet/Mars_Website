@@ -64,7 +64,7 @@
   justify-content: center;
   gap: 40px; /* Space between stats items */
   margin-top: 50px; /* Added margin to bring stats down */
-  margin-left: 580px;
+  
   }
   .statItem {
   text-align: center; /* Center-align stats items */
