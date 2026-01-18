@@ -6,6 +6,7 @@ import {Ourteam} from './components/ourteam/ourteam';
 import { Footer } from './components/footer/footer';
 import { Routes, Route } from 'react-router-dom';
 import { Achievement } from './components/achievement/achievement';
+import { Analytics } from '@vercel/analytics/react';
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
       <Route path="/ourteam" element={<Ourteam/>}/>
     </Routes>
     <Footer/>
+    <Analytics />
     </>
   );
 }
