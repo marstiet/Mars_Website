@@ -262,7 +262,7 @@ export const Ourteam = () => {
           <div className="rocket">
           <img src="ion_rocket-outline.svg" alt="Rocket" />
         </div>
-          <img src="ourteam.jpeg" alt="Team" />
+          <img src="/ourteam.jpeg" alt="Team" />
         </div>       
         <div className="lines2">
         <div className="line3"></div>
