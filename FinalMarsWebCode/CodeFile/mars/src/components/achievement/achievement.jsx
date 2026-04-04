@@ -12,7 +12,7 @@ import {
   SecImg,
   SecImgHolder,
   Wrapper,
-  TalkTitle,
+  // TalkTitle,
   Img,
   BottomGradient,
   SecImgHolderHeading,
@@ -71,7 +71,7 @@ import {
   EventDate,
   EventHeading,
   EventText,
-  EmptyDiv
+  // EmptyDiv
 } from './achievementStyled';
 import RoverImg from "../../assets/IRC 25 Day 4 [DoPy]-11 (1).jpg";
 import TeamRunner from "../../assets/team/IRC 25 Day 5 [DoPy] (35) (1).jpg";
