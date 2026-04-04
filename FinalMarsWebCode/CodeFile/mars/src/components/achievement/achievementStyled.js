@@ -614,7 +614,7 @@ export const SectionHeader = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height:9vw;
+  height:5.2vw;
 `;
 
 export const HeaderLine = styled.div`
