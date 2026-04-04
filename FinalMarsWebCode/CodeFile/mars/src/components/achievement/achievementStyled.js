@@ -201,7 +201,7 @@ export const ThirdFourthImgHeading = styled.div`
   color: white;
   margin-left: 100px;
    @media(max-width:900px){
-  top:235vw;
+  top:250vw;
  
   }
 `;
@@ -219,7 +219,7 @@ export const ThirdFourthImgMainHeading = styled.h3`
    @media(max-width:900px){
   font-size:5vw;
   line-height:5vw;
-  margin-left:-16vw;
+  margin-left:-12vw;
  
   }
 `;
@@ -234,7 +234,7 @@ export const ThirdFourthImgSubHeading = styled.p`
    @media(max-width:900px){
   font-size:3vw;
   line-height:11vw;
-  margin-left:-16vw;
+  margin-left:-12vw;
  
   }
 `;
