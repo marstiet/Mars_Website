@@ -219,7 +219,7 @@ export const ThirdFourthImgMainHeading = styled.h3`
    @media(max-width:900px){
   font-size:5vw;
   line-height:5vw;
-  margin-left:-20vw;
+  margin-left:-22vw;
  
   }
 `;
@@ -234,7 +234,7 @@ export const ThirdFourthImgSubHeading = styled.p`
    @media(max-width:900px){
   font-size:3vw;
   line-height:11vw;
-  margin-left:-20vw;
+  margin-left:-22vw;
  
   }
 `;
