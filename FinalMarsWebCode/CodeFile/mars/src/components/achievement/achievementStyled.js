@@ -63,6 +63,7 @@ export const BottomGradient = styled.div`
   right: 0;
   margin: 0 8%;
   height: 70%;
+  width:100%;
   background: linear-gradient(to top, rgba(15, 14, 14, 0.8), transparent);
   z-index: 1;
   pointer-events: none;
