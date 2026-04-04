@@ -162,9 +162,9 @@ const Card = ({ name, position, image, description,instagram,linkedin }) => (
       </div>
       <div className="card-overlay">
         <p className="des">{description}</p>
-        <div className="social-icons"> {instagram && ( <a href={instagram} target="_blank" rel="noopener noreferer">
+        <div className="social-icons"> {instagram && ( <a href={instagram} target="_blank" rel="noopener noreferrer">
           <img src="inslogo.svg" alt="instagram" className="social-icon"/></a> )}
-          {linkedin && (<a href={linkedin} target="_blank" rel="noopener noreferer">
+          {linkedin && (<a href={linkedin} target="_blank" rel="noopener noreferrer">
             <img src="linkin.svg" alt="linkedin" className="social-icon-link"/></a>) } </div>
       </div>
     </div>
@@ -342,7 +342,7 @@ Mentorship for innovation and growth   </li>    </ul>     </p>
 
       <div className="container2" id="container2"><div className="joinn">JOIN</div>
       
-      <div className="formm"><form  onSubmit={handleSubmit} classname="form">
+      <div className="formm"><form  onSubmit={handleSubmit} className="form">
           <label htmlFor="name">Full Name</label>
           <input type="text" id="name" name="name" value={formData.name} onChange={handleChange}  placeholder="Enter your name" required />
 
