@@ -289,6 +289,7 @@ export const Ourteam = () => {
           <h3>OUR MISSION</h3>
             <p className="pp">
            <ul className="pp"><li>Practical skills via workshops and projects</li>
+            
 <li>
 Inclusive collaboration across disciplines</li>
 <li>
@@ -317,7 +318,7 @@ Mentorship for innovation and growth   </li>    </ul>     </p>
           {teamMembers3.map((member, index) => (
             <Card key={index} {...member} />
           ))}
-           <div className="card"><img src="MarsLogo.png" className="logo" /></div>
+           <div className="card"><img src="MarsLogo.png" className="logo" alt="marslogo" /></div>
           {teamMembers9.map((member, index) => (
             <Card key={index} {...member} />
           ))}
