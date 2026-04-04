@@ -118,7 +118,7 @@ export const SecImg = styled.div`
   justify-content: center;
   align-items: center;
   // position:relative;
-  margin-top: 50px;
+  margin-top: 30px;
    @media(max-width:900px){
   
    position:relative;
@@ -614,7 +614,7 @@ export const SectionHeader = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height:4vw;
+  height:5vw;
 `;
 
 export const HeaderLine = styled.div`
