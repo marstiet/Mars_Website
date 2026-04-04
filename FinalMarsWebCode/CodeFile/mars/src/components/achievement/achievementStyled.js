@@ -117,7 +117,7 @@ export const SecImg = styled.div`
   justify-content: center;
   align-items: center;
   // position:relative;
-  margin-top: 20px;
+  margin-top: 50px;
    @media(max-width:900px){
   
    position:relative;
