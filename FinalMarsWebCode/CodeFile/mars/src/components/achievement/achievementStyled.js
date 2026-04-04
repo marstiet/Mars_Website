@@ -228,7 +228,7 @@ export const ThirdFourthImgSubHeading = styled.p`
   font-family: "Poppins", sans-serif;
   font-style: italic;
   font-weight: 500;
-  margin-left: -150px;
+  margin-left: -90px;
   margin-top: -14px;
    @media(max-width:900px){
   font-size:3vw;
@@ -613,6 +613,7 @@ export const SectionHeader = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
+  height:4vw;
 `;
 
 export const HeaderLine = styled.div`
