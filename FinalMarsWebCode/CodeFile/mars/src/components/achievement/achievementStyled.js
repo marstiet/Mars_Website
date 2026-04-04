@@ -201,7 +201,7 @@ export const ThirdFourthImgHeading = styled.div`
   color: white;
   margin-left: 100px;
    @media(max-width:900px){
-  top:250vw;
+  top:255vw;
  
   }
 `;
@@ -219,7 +219,7 @@ export const ThirdFourthImgMainHeading = styled.h3`
    @media(max-width:900px){
   font-size:5vw;
   line-height:5vw;
-  margin-left:-12vw;
+  margin-left:0vw;
  
   }
 `;
