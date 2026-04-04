@@ -141,7 +141,8 @@ export const Achievement = () => {
             into Reality
           </BackgroundTopHeading>
         </BackgroundTop>
-
+<SectionHeader>
+</SectionHeader>
         <SecImg>
           <SecImgHolder>
             <ImageWrapper>
@@ -156,8 +157,7 @@ export const Achievement = () => {
             </SecImgHolderHeading>
           </SecImgHolder>
         </SecImg>
-<SectionHeader>
-</SectionHeader>
+
         <SecImg>
           <SecImgHolder>
             <Wrapper>
