@@ -50,7 +50,7 @@ import {
   Authors,
   PubLine,
   Section,
-  // SectionHeader,
+  SectionHeader,
   // HeaderLine,
   // HeaderTitleContainer,
   // HeaderTitle,
@@ -75,7 +75,9 @@ import {
 } from './achievementStyled';
 import RoverImg from "../../assets/IRC 25 Day 4 [DoPy]-11 (1).jpg";
 import TeamRunner from "../../assets/team/IRC 25 Day 5 [DoPy] (35) (1).jpg";
-import TeamEmerging from "../../assets/team/EmergingT.png";
+//import TeamEmerging from "../../assets/team/EmergingT.png";
+import irc26 from "../../assets/team/irc26.jpeg";
+import isdc26 from "../../assets/team/isdc26.jpeg";
 import FirstPlace from "../../assets/team/firsterc.jpg";
 
 // Card Component
@@ -143,12 +145,28 @@ export const Achievement = () => {
         <SecImg>
           <SecImgHolder>
             <Wrapper>
-              <Img src={TeamRunner} alt="Runner Up" />
+              <Img src={irc26} alt="irc26" />
               <BottomGradient />
             </Wrapper>
             <SecImgHolderHeading>
               <SecImgSubHeading>
-                International Rover Challenge' <span style={{ color: "#f16837" }}>25</span>
+                International Rover Challenge' <span style={{ color: "#f16837" }}>26</span>
+              </SecImgSubHeading>
+              <SecImgHeading> CHAMPIONS </SecImgHeading>
+            </SecImgHolderHeading>
+          </SecImgHolder>
+        </SecImg>
+<SectionHeader>
+</SectionHeader>
+        <SecImg>
+          <SecImgHolder>
+            <Wrapper>
+              <Img src={isdc26} alt="isdc26" />
+              <BottomGradient />
+            </Wrapper>
+            <SecImgHolderHeading>
+              <SecImgSubHeading>
+                International Space Drone Challenge' <span style={{ color: "#f16837" }}>26</span>
               </SecImgSubHeading>
               <SecImgHeading>RUNNER UP</SecImgHeading>
             </SecImgHolderHeading>
@@ -158,14 +176,14 @@ export const Achievement = () => {
         <ThirdFourth>
           <div>
             <ThirdFourthImgHolder>
-              <Img src={TeamEmerging} alt="Emerging Team" />
+              <Img src={TeamRunner} alt="irc25" />
             </ThirdFourthImgHolder>
             <ThirdFourthImgHeading>
               <ThirdFourthImgMainHeading>
-                EMERGING TEAM <br /> OF THE YEAR
+                RUNNER UP
               </ThirdFourthImgMainHeading>
               <ThirdFourthImgSubHeading>
-                International Rover Challenge' <span style={{ color: "#f16837",fontFamily:"poppins" }}>23</span>
+                International Rover Challenge' <span style={{ color: "#f16837",fontFamily:"poppins" }}>25</span>
               </ThirdFourthImgSubHeading>
             </ThirdFourthImgHeading>
           </div>
