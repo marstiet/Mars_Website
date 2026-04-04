@@ -144,10 +144,10 @@ export const Achievement = () => {
 
         <SecImg>
           <SecImgHolder>
-            <Wrapper>
+            <ImageWrapper>
               <Img src={irc26} alt="irc26" />
               <BottomGradient />
-            </Wrapper>
+            </ImageWrapper>
             <SecImgHolderHeading>
               <SecImgSubHeading>
                 International Rover Challenge' <span style={{ color: "#f16837" }}>26</span>
