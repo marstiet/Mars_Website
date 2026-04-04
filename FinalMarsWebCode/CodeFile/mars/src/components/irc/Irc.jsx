@@ -5,7 +5,7 @@ import IrcInfo from "./IrcInfo";
 import IrcMissions from "./IrcMissions";
 import IrcTrackRecord from "./IrcTrackRecord";
 import IrcRoverSpecs from "./IrcRoverSpecs";
-import IrcFooter from "./IrcFooter";
+// import IrcFooter from "./IrcFooter";
 
 export const   Irc = ()=> {
   return (
