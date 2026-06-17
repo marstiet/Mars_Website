@@ -84,7 +84,7 @@ import {
   // FooterDiv,
   // FooterEnd,
   // FooterBtn,
-  Rec,
+  // Rec,
   Reclink,
   RoverImg,
   LinkHolder,
@@ -114,11 +114,11 @@ export const LandingPage = () => {
   }
   return (
     <div>
-      <Rec>
+      {/* <Rec>
          <Reclink href ="https://docs.google.com/forms/d/1yn_pJmo1uan-SBAgsFpJpaM6TtCVa11YFQmnLCnsFj8/edit" >
         Orientation and Recruitments
         </Reclink>
-      </Rec>
+      </Rec> */}
       <ImgHolder>
         <MainVideo autoPlay muted loop playsInline>
           <source src={WebVideo} type="video/mp4" />
