@@ -78,6 +78,7 @@ import TeamRunner from "../../assets/team/IRC 25 Day 5 [DoPy] (35) (1).jpg";
 //import TeamEmerging from "../../assets/team/EmergingT.png";
 import irc26 from "../../assets/team/irc26.jpeg";
 import isdc26 from "../../assets/team/isdc26.jpeg";
+import ganga from "../../assets/team/IMG_6027.JPG";
 import FirstPlace from "../../assets/team/firsterc.jpg";
 
 // Card Component
@@ -93,13 +94,15 @@ const Card = ({ title, year, image }) => (
 
 export const Achievement = () => {
   const innovations = [
+    { title: "GANGA", year: "2026", image: ganga },
     { title: "ALAKANANDA", year: "2025", image: "/roboDuelist.jpg" },
     { title: "BHAGIRATHI", year: "2024", image: "/bhagirathi1.jpg" },
-    { title: "MANDAKINI", year: "2023", image: "/1-BrZcJz6s.jpg" },
+    
   ];
   const innovations2 = [
+    { title: "MANDAKINI", year: "2023", image: "/1-BrZcJz6s.jpg" },
     { title: "MARVIN", year: "2024", image: "/4-O3EFzGpI.png" },
-    { title: "ROBO DUELIST", year: "2024", image: "/robo1.png" },
+    //{ title: "ROBO DUELIST", year: "2024", image: "/robo1.png" },
     { title: "ROBOMUSE", year: "2023", image: "/robomuse.jpeg" },
   ];
   const events = [
