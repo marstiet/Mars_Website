@@ -193,12 +193,12 @@ const Scroller = () => {
 };
 export default Scroller;*/
 import React, { useState, useRef, useEffect } from "react";
-import Img1 from '../../assets/team/teamaddverb.jpg';
-import Img2 from '../../assets/team/groupprevirc.jpg';
-import Img3 from '../../assets/team/group.jpg'; // Replace with actual file
-import Img4 from '../../assets/team/groupsir.jpg'; // Replace with actual file
-import Img5 from '../../assets/team/IRC 25 Day2 [DoPy] 53.jpg'; // Replace with actual file
-import Img6 from '../../assets/team/IRC 25 Day 5 [DoPy] (35) .jpg'; // Replace with actual file
+import Img1 from '../../assets/team/isdc26.jpeg';
+import Img2 from '../../assets/team/irc26.jpeg';
+import Img3 from '../../assets/team/IMG_6027.JPG'; 
+import Img4 from '../../assets/team/groupsir.jpg'; 
+import Img5 from '../../assets/team/IRC 25 Day2 [DoPy] 53.jpg'; 
+import Img6 from '../../assets/team/IRC 25 Day 5 [DoPy] (35) .jpg'; 
 import { ScrollerHeading } from './scrollerStyled'
 
 import {
